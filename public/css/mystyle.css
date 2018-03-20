@@ -1,0 +1,49 @@
+body {
+
+}
+
+.sports-app-nav {
+  background-color: Red;
+}
+
+.brandImage {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.headingImage {
+  width: 100%;
+}
+
+.Welcome h2 {
+  margin-top: 0px;
+}
+
+@media only screen and (min-width:768px) {
+  .Welcome h2 {
+    font-size: 63px;
+  }
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.section img{
+  width: 100%;
+}
+
+.section {
+  margin: 20px;
+}
+
+.divider {
+  border: 1px solid black;
+}
+
+.first-nav {
+  margin-bottom: 0px
+}
