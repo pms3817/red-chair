@@ -21,6 +21,11 @@ app.get('/nba', function(req, res) {
     res.render('pages/nba', {section: 'nba'});
 });
 
+//Games page
+app.get('/games', function(req, res) {
+    res.render('pages/games', {section: 'games'});
+});
+
 
 app.listen(8080);
 console.log('8080 is the magic port');
