@@ -31,6 +31,12 @@ app.get('/injuries', function(req, res) {
     res.render('pages/injuries', {section: 'games'});
 });
 
+//Teams page
+app.get('/injuries', function(req, res) {
+    res.render('pages/injuries', {section: 'games'});
+});
+
+
 
 app.listen(8080);
 console.log('8080 is the magic port');
