@@ -32,8 +32,8 @@ app.get('/injuries', function(req, res) {
 });
 
 //Teams page
-app.get('/injuries', function(req, res) {
-    res.render('pages/injuries', {section: 'games'});
+app.get('/teams', function(req, res) {
+    res.render('pages/teams', {section: 'games'});
 });
 
 
