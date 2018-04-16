@@ -38,5 +38,5 @@ app.get('/teams', function(req, res) {
 
 
 
-app.listen(8080);
-console.log('8080 is the magic port');
+app.listen(process.env.PORT || 8080);
+console.log( process.env.PORT || 8080 + ' is the magic port');
