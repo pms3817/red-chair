@@ -19,7 +19,9 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">Players</a></li>
-        <li><a href="#">Teams</a></li>
+        <li><a href="/games">Games</a></li>
+        <li><a href="/injuries">Injuries</a></li>
+        <li><a href="/teams">Teams</a></li>
       </ul>
       <form class="navbar-form navbar-right" action="/action_page.php">
         <div class="form-group">
@@ -36,37 +38,324 @@
 <main>
   <div class="container-fluid main">
   <div class="row">
-    <div class="col-xs-7"><img src="/images/sports.png" class="headingImage"></div>
-    <div class="col-xs-5 Welcome">
-      <h2>Welcome to Red Chair</h2>
-    </div>
-  </div>
-  <div class="description">
+    <div class="col-xs-12"><img src="/images/NbA.jpg" class="headingImage"></div>
 
   </div>
-  <h1>What is Red Chair</h1>
-  <div class="row section">
-    <div class="col-xs-4">
-      <img src="/images/statistics.png">
-    </div>
-    <div class="col-xs-8">
-      <h4>Red Chair offers new ways to keep up to date on your favorite players and teams, complete with statistics of them</h4>
-    </div>
-  </div>
-  <div class="row divider"></div>
-  <div class="row section">
-    <div class="col-xs-4">
-      <img src="/images/update.png">
-    </div>
-    <div class="col-xs-8">
-      <h4>With ever updating statistics you're sure to stay on top of your favourite teams and players</h4>
-    </div>
-  </div>
-  <div class="row">
+    <div class="col-xs-12">
+      <!-- document.write('<div class="sr_widget" style="overflow-x:auto">');
+document.write('<div class="sr_widget_content">');
+document.write('<style type="text/css">\ -->
+<!-- .sr_widget table {\
+  border-collapse: collapse;\
+  font-size: 1em;\
+}\
+.sr_widget table td {\
+  padding-right: 1em;\
+}\
+/* The basic stats table. */\
+.sr_widget .stats_table {\
+  border-collapse: collapse;\
+  border: #747678 solid 1px;\
+  font-size: .875em;\
+  margin-bottom: 1em;\
+  /* assorted other things */\
+\
+  /* For tables inside a stats_table */\
+\
+}\
+.sr_widget .stats_table th, .sr_widget  .stats_table td {\
+  border-width: 1px;\
+  border-color: #aaaaaa;\
+  padding: 3px;\
+  vertical-align: inherit;\
+}\
+.sr_widget .stats_table th *, .sr_widget  .stats_table td * {\
+  vertical-align: inherit;\
+}\
+.sr_widget .stats_table th {\
+  background-color: #dadcde;\
+  border-style: solid;\
+  color:black!important;\
+  opacity: initial;\
+}\
+.sr_widget .stats_table td {\
+  border-style: dotted;\
+  white-space: nowrap!important;\
+}\
+.sr_widget .stats_table td.wrap {\
+  white-space: normal;\
+}\
+.sr_widget .stats_table td.double_border {\
+  border-left: 4px solid #747678;\
+}\
+.sr_widget .stats_table tr:last-child > td, .sr_widget  .stats_table th {\
+  border-bottom: #747678 solid 1px;\
+}\
+.sr_widget .stats_table tr:first-child > td, .sr_widget  .stats_table th {\
+  border-top: #747678 solid 1px;\
+}\
+.sr_widget .stats_table tr {\
+  vertical-align: top;\
+}\
+.sr_widget .stats_table tr td:first-child, .sr_widget  .stats_table tr th:first-child {\
+  border-left: #747678 solid 1px;\
+}\
+.sr_widget .stats_table tr td:last-child, .sr_widget  .stats_table tr th:last-child {\
+  border-right: #747678 solid 1px;\
+}\
+.sr_widget .stats_table tr.vmiddle {\
+  vertical-align: baseline;\
+}\
+.sr_widget .stats_table .normal_text {\
+  font-size: 1em!important;\
+  /* 12 px */\
+}\
+.sr_widget .stats_table .normal_text th, .sr_widget  .stats_table .normal_text td {\
+  padding: 4px!important;\
+}\
+.sr_widget .stats_table table td {\
+  border: 0!important;\
+  padding: 2px!important;\
+}\
+.sr_widget .stats_table form {\
+  margin: 0;\
+  padding: 0;\
+}\
+.sr_widget .stats_table select, .sr_widget  .stats_table input {\
+  font-size: .8175em!important;\
+}\
+.sr_widget .sortable .sort_col {\
+  background-color: #ffffaa;\
+  border: solid 2px #747678;\
+}\
+.sr_widget .blank_table, .sr_widget .spacer {\
+  background-color: #dadcde;\
+  height: 0;\
+  padding: 0;\
+}\
+.sr_widget .partial_table, .sr_widget  .partial_table a {\
+  color: #414345;\
+  text-decoration: none;\
+}\
+.sr_widget .stat_average, .sr_widget  .stat_total {\
+  background-color: #dadcde;\
+  font-weight: 700;\
+}\
+.sr_widget .left { text-align: left; float:none!important;}\
+.sr_widget .right { text-align: right; float:none!important; }\
+.sr_widget .center { text-align: center; float:none!important; }\ -->
+</style>
 
-  </div>
+<div id="all_" class="table_wrapper floated">
+
+<div class="section_heading">
+  <span class="section_anchor" id="_link" data-label=""></span>
+    <h2></h2>    <div class="section_heading_text">
+      <ul>
+      </ul>
+    </div>
+</div>   <div class="table_outer_container">
+      <div class="overthrow table_container" id="div_">
+  <table class="suppress_all sortable stats_table" id="" data-cols-to-freeze=0><caption> Table</caption>
+   <colgroup><col><col><col><col><col></colgroup>
+   <thead>
+      <tr>
+         <th aria-label="Team" data-stat="team_name" scope="col" class=" poptip sort_default_asc left" >Team</th>
+         <th aria-label="Wins" data-stat="wins" scope="col" class=" poptip right" data-tip="Wins" >W</th>
+         <th aria-label="Losses" data-stat="losses" scope="col" class=" poptip right" data-tip="Losses" >L</th>
+         <th aria-label="Win-Loss Percentage" data-stat="win_loss_pct" scope="col" class=" poptip right" data-tip="Win-Loss Percentage" >W/L%</th>
+         <th aria-label="Games Behind" data-stat="gb" scope="col" class=" poptip sort_default_asc right" data-tip="Games Behind" >GB</th>
+      </tr>
+
+   </thead>
+   <tbody>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Houston Rockets</a></th><td class="right " data-stat="wins" >65</td><td class="right " data-stat="losses" >17</td><td class="right " data-stat="win_loss_pct" >.793</td><td class="right " data-stat="gb" >0.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Golden State Warriors</a></th><td class="right " data-stat="wins" >58</td><td class="right " data-stat="losses" >24</td><td class="right " data-stat="win_loss_pct" >.707</td><td class="right " data-stat="gb" >7.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Portland Trail Blazers</a></th><td class="right " data-stat="wins" >49</td><td class="right " data-stat="losses" >33</td><td class="right " data-stat="win_loss_pct" >.598</td><td class="right " data-stat="gb" >16.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Oklahoma City Thunder</a></th><td class="right " data-stat="wins" >48</td><td class="right " data-stat="losses" >34</td><td class="right " data-stat="win_loss_pct" >.585</td><td class="right " data-stat="gb" >17.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Utah Jazz</a></th><td class="right " data-stat="wins" >48</td><td class="right " data-stat="losses" >34</td><td class="right " data-stat="win_loss_pct" >.585</td><td class="right " data-stat="gb" >17.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >New Orleans Pelicans</a></th><td class="right " data-stat="wins" >48</td><td class="right " data-stat="losses" >34</td><td class="right " data-stat="win_loss_pct" >.585</td><td class="right " data-stat="gb" >17.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >San Antonio Spurs</a></th><td class="right " data-stat="wins" >47</td><td class="right " data-stat="losses" >35</td><td class="right " data-stat="win_loss_pct" >.573</td><td class="right " data-stat="gb" >18.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Minnesota Timberwolves</a></th><td class="right " data-stat="wins" >47</td><td class="right " data-stat="losses" >35</td><td class="right " data-stat="win_loss_pct" >.573</td><td class="right " data-stat="gb" >18.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Denver Nuggets</a></th><td class="right " data-stat="wins" >46</td><td class="right " data-stat="losses" >36</td><td class="right " data-stat="win_loss_pct" >.561</td><td class="right " data-stat="gb" >19.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Los Angeles Clippers</a></th><td class="right " data-stat="wins" >42</td><td class="right " data-stat="losses" >40</td><td class="right " data-stat="win_loss_pct" >.512</td><td class="right " data-stat="gb" >23.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Los Angeles Lakers</a></th><td class="right " data-stat="wins" >35</td><td class="right " data-stat="losses" >47</td><td class="right " data-stat="win_loss_pct" >.427</td><td class="right " data-stat="gb" >30.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Sacramento Kings</a></th><td class="right " data-stat="wins" >27</td><td class="right " data-stat="losses" >55</td><td class="right " data-stat="win_loss_pct" >.329</td><td class="right " data-stat="gb" >38.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Dallas Mavericks</a></th><td class="right " data-stat="wins" >24</td><td class="right " data-stat="losses" >58</td><td class="right " data-stat="win_loss_pct" >.293</td><td class="right " data-stat="gb" >41.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Memphis Grizzlies</a></th><td class="right " data-stat="wins" >22</td><td class="right " data-stat="losses" >60</td><td class="right " data-stat="win_loss_pct" >.268</td><td class="right " data-stat="gb" >43.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Phoenix Suns</a></th><td class="right " data-stat="wins" >21</td><td class="right " data-stat="losses" >61</td><td class="right " data-stat="win_loss_pct" >.256</td><td class="right " data-stat="gb" >44.0</td></tr>
+
+</tbody></table>
+
+      </div>
+   </div>
 </div>
-</main>
+<!-- url:https://www.basketball-reference.com/widgets/standings.fcgi?conf=W&css=0& -->\
+<!-- ');
+document.write('</div>');
+document.write('<div class="sr_widget_footer">');
+document.write('<p>Data courtesy <a href="https://www.basketball-reference.com/">Basketball-Reference.com</a>.</p>');
+document.write('</div>');
+document.write('</div>'); -->
+    </div>
+    <div class="col-xs-12">
+      <!-- document.write('<div class="sr_widget" style="overflow-x:auto">');
+document.write('<div class="sr_widget_content">');
+document.write('<style type="text/css">\ -->
+<!-- .sr_widget table {\
+  border-collapse: collapse;\
+  font-size: 1em;\
+}\
+.sr_widget table td {\
+  padding-right: 1em;\
+}\
+/* The basic stats table. */\
+.sr_widget .stats_table {\
+  border-collapse: collapse;\
+  border: #747678 solid 1px;\
+  font-size: .875em;\
+  margin-bottom: 1em;\
+  /* assorted other things */\
+\
+  /* For tables inside a stats_table */\
+\
+}\
+.sr_widget .stats_table th, .sr_widget  .stats_table td {\
+  border-width: 1px;\
+  border-color: #aaaaaa;\
+  padding: 3px;\
+  vertical-align: inherit;\
+}\
+.sr_widget .stats_table th *, .sr_widget  .stats_table td * {\
+  vertical-align: inherit;\
+}\
+.sr_widget .stats_table th {\
+  background-color: #dadcde;\
+  border-style: solid;\
+  color:black!important;\
+  opacity: initial;\
+}\
+.sr_widget .stats_table td {\
+  border-style: dotted;\
+  white-space: nowrap!important;\
+}\
+.sr_widget .stats_table td.wrap {\
+  white-space: normal;\
+}\
+.sr_widget .stats_table td.double_border {\
+  border-left: 4px solid #747678;\
+}\
+.sr_widget .stats_table tr:last-child > td, .sr_widget  .stats_table th {\
+  border-bottom: #747678 solid 1px;\
+}\
+.sr_widget .stats_table tr:first-child > td, .sr_widget  .stats_table th {\
+  border-top: #747678 solid 1px;\
+}\
+.sr_widget .stats_table tr {\
+  vertical-align: top;\
+}\
+.sr_widget .stats_table tr td:first-child, .sr_widget  .stats_table tr th:first-child {\
+  border-left: #747678 solid 1px;\
+}\
+.sr_widget .stats_table tr td:last-child, .sr_widget  .stats_table tr th:last-child {\
+  border-right: #747678 solid 1px;\
+}\
+.sr_widget .stats_table tr.vmiddle {\
+  vertical-align: baseline;\
+}\
+.sr_widget .stats_table .normal_text {\
+  font-size: 1em!important;\
+  /* 12 px */\
+}\
+.sr_widget .stats_table .normal_text th, .sr_widget  .stats_table .normal_text td {\
+  padding: 4px!important;\
+}\
+.sr_widget .stats_table table td {\
+  border: 0!important;\
+  padding: 2px!important;\
+}\
+.sr_widget .stats_table form {\
+  margin: 0;\
+  padding: 0;\
+}\
+.sr_widget .stats_table select, .sr_widget  .stats_table input {\
+  font-size: .8175em!important;\
+}\
+.sr_widget .sortable .sort_col {\
+  background-color: #ffffaa;\
+  border: solid 2px #747678;\
+}\
+.sr_widget .blank_table, .sr_widget .spacer {\
+  background-color: #dadcde;\
+  height: 0;\
+  padding: 0;\
+}\
+.sr_widget .partial_table, .sr_widget  .partial_table a {\
+  color: #414345;\
+  text-decoration: none;\
+}\
+.sr_widget .stat_average, .sr_widget  .stat_total {\
+  background-color: #dadcde;\
+  font-weight: 700;\
+}\
+.sr_widget .left { text-align: left; float:none!important;}\
+.sr_widget .right { text-align: right; float:none!important; }\
+.sr_widget .center { text-align: center; float:none!important; }\ -->
+</style>
+
+<div id="all_" class="table_wrapper floated">
+
+<div class="section_heading">
+  <span class="section_anchor" id="_link" data-label=""></span>
+    <h2></h2>    <div class="section_heading_text">
+      <ul>
+      </ul>
+    </div>
+</div>   <div class="table_outer_container">
+      <div class="overthrow table_container" id="div_">
+  <table class="suppress_all sortable stats_table" id="" data-cols-to-freeze=0><caption> Table</caption>
+   <colgroup><col><col><col><col><col></colgroup>
+   <thead>
+      <tr>
+         <th aria-label="Team" data-stat="team_name" scope="col" class=" poptip sort_default_asc left" >Team</th>
+         <th aria-label="Wins" data-stat="wins" scope="col" class=" poptip right" data-tip="Wins" >W</th>
+         <th aria-label="Losses" data-stat="losses" scope="col" class=" poptip right" data-tip="Losses" >L</th>
+         <th aria-label="Win-Loss Percentage" data-stat="win_loss_pct" scope="col" class=" poptip right" data-tip="Win-Loss Percentage" >W/L%</th>
+         <th aria-label="Games Behind" data-stat="gb" scope="col" class=" poptip sort_default_asc right" data-tip="Games Behind" >GB</th>
+      </tr>
+
+   </thead>
+   <tbody>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Toronto Raptors</a></th><td class="right " data-stat="wins" >65</td><td class="right " data-stat="losses" >17</td><td class="right " data-stat="win_loss_pct" >.793</td><td class="right " data-stat="gb" >0.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Boston Celtics</a></th><td class="right " data-stat="wins" >58</td><td class="right " data-stat="losses" >24</td><td class="right " data-stat="win_loss_pct" >.707</td><td class="right " data-stat="gb" >7.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Philadelphia 76ers</a></th><td class="right " data-stat="wins" >49</td><td class="right " data-stat="losses" >33</td><td class="right " data-stat="win_loss_pct" >.598</td><td class="right " data-stat="gb" >16.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Cleveland Cavalier</a></th><td class="right " data-stat="wins" >48</td><td class="right " data-stat="losses" >34</td><td class="right " data-stat="win_loss_pct" >.585</td><td class="right " data-stat="gb" >17.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Indiana Pacers</a></th><td class="right " data-stat="wins" >48</td><td class="right " data-stat="losses" >34</td><td class="right " data-stat="win_loss_pct" >.585</td><td class="right " data-stat="gb" >17.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Miami Heat</a></th><td class="right " data-stat="wins" >48</td><td class="right " data-stat="losses" >34</td><td class="right " data-stat="win_loss_pct" >.585</td><td class="right " data-stat="gb" >17.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Milwaukee Bucks</a></th><td class="right " data-stat="wins" >47</td><td class="right " data-stat="losses" >35</td><td class="right " data-stat="win_loss_pct" >.573</td><td class="right " data-stat="gb" >18.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Washington Wizards</a></th><td class="right " data-stat="wins" >47</td><td class="right " data-stat="losses" >35</td><td class="right " data-stat="win_loss_pct" >.573</td><td class="right " data-stat="gb" >18.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Detroit Pistons</a></th><td class="right " data-stat="wins" >46</td><td class="right " data-stat="losses" >36</td><td class="right " data-stat="win_loss_pct" >.561</td><td class="right " data-stat="gb" >19.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Charlotte Hornets</a></th><td class="right " data-stat="wins" >42</td><td class="right " data-stat="losses" >40</td><td class="right " data-stat="win_loss_pct" >.512</td><td class="right " data-stat="gb" >23.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >New York Knicks</a></th><td class="right " data-stat="wins" >35</td><td class="right " data-stat="losses" >47</td><td class="right " data-stat="win_loss_pct" >.427</td><td class="right " data-stat="gb" >30.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Brooklyn Nets</a></th><td class="right " data-stat="wins" >27</td><td class="right " data-stat="losses" >55</td><td class="right " data-stat="win_loss_pct" >.329</td><td class="right " data-stat="gb" >38.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Chicago Bulls</a></th><td class="right " data-stat="wins" >24</td><td class="right " data-stat="losses" >58</td><td class="right " data-stat="win_loss_pct" >.293</td><td class="right " data-stat="gb" >41.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Orlando Magic</a></th><td class="right " data-stat="wins" >22</td><td class="right " data-stat="losses" >60</td><td class="right " data-stat="win_loss_pct" >.268</td><td class="right " data-stat="gb" >43.0</td></tr>
+<tr class="full_table" ><th scope="row" class="left " data-stat="team_name" >Atlanta Hawks</a></th><td class="right " data-stat="wins" >21</td><td class="right " data-stat="losses" >61</td><td class="right " data-stat="win_loss_pct" >.256</td><td class="right " data-stat="gb" >44.0</td></tr>
+
+</tbody></table>
+
+      </div>
+   </div>
+</div>
+<!-- url:https://www.basketball-reference.com/widgets/standings.fcgi?conf=W&css=0& -->\
+<!-- ');
+document.write('</div>');
+document.write('<div class="sr_widget_footer">');
+document.write('<p>Data courtesy <a href="https://www.basketball-reference.com/">Basketball-Reference.com</a>.</p>');
+document.write('</div>');
+document.write('</div>'); -->
+    </div>
+  </div>
 
 <footer>
   <% include ../partials/footer %>

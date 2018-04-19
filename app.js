@@ -21,6 +21,22 @@ app.get('/nba', function(req, res) {
     res.render('pages/nba', {section: 'nba'});
 });
 
+//Games page
+app.get('/games', function(req, res) {
+    res.render('pages/games', {section: 'games'});
+});
 
-app.listen(8080);
-console.log('8080 is the magic port');
+//Injuries page
+app.get('/injuries', function(req, res) {
+    res.render('pages/injuries', {section: 'games'});
+});
+
+//Teams page
+app.get('/teams', function(req, res) {
+    res.render('pages/teams', {section: 'games'});
+});
+
+
+
+app.listen(process.env.PORT || 8080);
+console.log( process.env.PORT || 8080 + ' is the magic port');

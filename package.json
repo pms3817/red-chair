@@ -1,5 +1,5 @@
 {
-  "name": "node-ejs",
+  "name": "red-chair",
   "main": "app.js",
   "dependencies": {
     "ejs": "^1.0.0",
