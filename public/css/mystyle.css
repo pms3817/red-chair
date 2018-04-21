@@ -47,3 +47,8 @@ h1 {
 .first-nav {
   margin-bottom: 0px
 }
+
+.secret a:hover {
+  text-decoration: none;
+  color: black;
+}

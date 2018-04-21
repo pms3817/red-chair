@@ -41,6 +41,11 @@ app.get('/players', function(req, res) {
     res.render('pages/players', {section: 'players'});
 });
 
+//Minsoo's secret page
+app.get('/minsoo', function(req, res) {
+    res.render('pages/minsoo', {section: 'minsoo'});
+});
+
 
 
 app.listen(process.env.PORT || 8080);
