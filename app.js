@@ -38,7 +38,7 @@ app.get('/teams', function(req, res) {
 
 //Players page
 app.get('/players', function(req, res) {
-    res.render('pages/players_iframe', {section: 'players'});
+    res.render('pages/players', {section: 'players'});
 });
 
 
