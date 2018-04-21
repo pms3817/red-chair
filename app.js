@@ -28,12 +28,17 @@ app.get('/games', function(req, res) {
 
 //Injuries page
 app.get('/injuries', function(req, res) {
-    res.render('pages/injuries', {section: 'games'});
+    res.render('pages/injuries', {section: 'injuries'});
 });
 
 //Teams page
 app.get('/teams', function(req, res) {
-    res.render('pages/teams', {section: 'games'});
+    res.render('pages/teams', {section: 'teams'});
+});
+
+//Players page
+app.get('/players', function(req, res) {
+    res.render('pages/players_iframe', {section: 'players'});
 });
 
 
