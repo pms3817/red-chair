@@ -1,0 +1,31 @@
+
+function goToURL1() {
+	var loc = "#";
+	var s = '2008';
+	var s2 = '2009';
+
+	var sm = document.form1.Monthly.options[document.form1.Monthly.selectedIndex].value;
+	var Ext = "";
+	var today = new Date();
+	var mt = today.getMonth()+1;
+	var mn = new Array("", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+	
+	if (sm!="#") {
+		str = (sm!=mt)?mn[sm]:"index";
+		loc = ((str=="index")?(str):(s + '_' + s2 + '_game_schedule/' + str)) + '.html#scheds';
+		window.location.href = '/schedules/' + loc;
+	}
+	
+}
+
+function goToURL2() {
+	var theTeam = document.form2.byTeam.options[document.form2.byTeam.selectedIndex].value;
+	if (theTeam != "#") 
+		window.location.href = theTeam + 'schedule';
+}
+
+function goToURL3() {
+	var theBroad = document.form3.Broadcaster.options[document.form3.Broadcaster.selectedIndex].value;
+	if (theBroad!= "#") 
+		window.location.href = '/schedules/national_tv_schedule/' + theBroad;
+}

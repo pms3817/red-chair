@@ -1,0 +1,3659 @@
+ /*  global page styles */
+
+body 
+	{
+	background:#fff url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/global/nbaBgFill.jpg) repeat-x top left;
+	margin:0;
+	}
+body,div,td
+	{
+	font-family:arial;
+	font-size:11px;
+	
+	}
+img 
+	{
+	padding:0!important;
+	margin:0!important;
+	border:none;
+	}
+
+#nbaPgHolder
+	{
+	width:1010px;
+	}	
+
+a, a:active, a:link, a:visited, a:hover {text-decoration:none!important;color:#0066cc;}
+ul li a, a:active, a:link, a:visited, a:hover {text-decoration:none!important;color:#0066cc;}
+
+#nbaLogoRail {width:62px;float:left;}
+#nbaLeftLogo {text-align:right;padding-top:129px;position:relative;left:2px;}
+#nbaLeftLogo4Home {text-align:right;padding-top:39px;position:relative;left:2px;}
+#nbaHeaderAds {width:938px;float:left;padding:10px 0px;}
+#nbaTop728Ad {width:728px;height:90px;float:left;}
+#nbaTop200Ad {width:200px;height:90px;float:right;}
+#nbaGlobalNav {float:left;}
+#nbaMainSection {width:938px; float:left;background:#fff;padding-top:4px!important;margin-top:0px;}
+#nbaGlobalFooter {margin-left:62px;margin-top:10px;}
+
+/*  homepage styles */
+
+#nbaRightColumnHome
+	{
+	float:right;
+	width:300px;
+	}
+
+#nbaHomeHeaderAd
+	{
+	width:918px;
+	margin-left:10px;
+	margin-right:10px;
+	-margin-left:0px;
+	-margin-right:5px;
+	margin-bottom:8px; 
+	margin-top:6px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeExpandableAd.jpg);
+	background-repeat:no-repeat;
+	float:right;
+	z-index:555!important;
+	}
+	#nbaHomeHeaderAdExp
+	{
+	float:right;
+	width:300px;
+	height:50px;
+	margin-top:-58px;
+	margin-right:10px;
+	_margin-top:-61px;
+	}
+#nbaHomePhotoAd
+	{
+	width:88px;
+	height:31px;
+	margin-bottom:5px;
+	}
+
+		
+#nbaScoreRotate
+	{
+	width:607px;
+	height:0px;
+	margin-left:10px;
+	margin-bottom:8px;
+	padding:0px;
+	}
+	
+#nbaScoreRotateWide
+	{
+	position:relative;
+	top:-5px;
+	_top:3px;
+	height:140px;
+	width:918px;
+	padding:0px;
+	margin-left:10px;
+	margin-bottom:5px;
+	}
+
+#nbaTwoToRight
+	{
+	float:right;
+	width:300px;
+	margin-bottom:8px;
+	}
+
+#nbaLeftColHomePage
+	{
+	float:left;
+	margin-left:10px;
+	_margin-left:0px;
+	_padding-left:10px;
+	
+	}
+
+	
+.nbaLft8pxGap
+	{
+	padding:0px;
+	margin:0px;
+	height:8px;
+	}
+	
+#nbaHomeCenterCol
+	{
+	width:438px;
+	float:right;
+	margin-left:6px;
+	}
+	
+#nbaT1FlashHolder
+	{
+	width:438px;
+	padding:0px;
+	margin:0px;
+	background:#fff;
+	}
+	
+#nbaT1FlashHolder span a
+	{
+	color:#0066CC;
+	font-size:18px;
+	font-weight:bold;
+	}
+	
+.nbaHpT1Text
+	{
+	margin:8px 15px 0px 15px;
+	}
+	
+.nbaHpT1Text span
+	{
+	padding-top:8px;
+	}
+	
+#nbHpUnderT1Stories {
+	margin-left:15px;
+	width:405px;
+}
+
+/* BEGIN: Old T2 Code, can probably be removed */
+
+table#nbaHpStoryTbl
+	{
+	border-top:1px solid #ccc;
+	border-collapse:collapse;
+	margin-bottom:8px;
+	}
+	
+table#nbaHpStoryTbl td
+	{
+	
+	}
+
+	
+table#nbaHpStoryTbl td br
+	{
+	margin:0px;
+	padding:0px;
+	}
+	
+table#nbaHpStoryTbl td p
+	{
+	padding:0px!important;
+	margin-bottom:0px;
+	}
+	
+td.nbaHpTextImgHolderTd a
+	{
+	height:95px;
+	width:135px;
+	}	
+
+.nbaHpTextTdHolder
+	{
+	width:295px;
+	padding-left:10px;
+	}
+	
+.nbaHpTextTdHolder a span
+	{
+	font-weight:bold;
+	}
+	
+td.nbaHpStoryTopTd
+	{
+	padding-top:8px;
+	border-bottom:0px!important;
+	
+	}
+
+td.nbaHpStoryTopTd a
+	{
+	font-size:14px;
+	font-weight:bold;
+	}
+
+/* END: Old T2 Code, can probably be removed */
+
+/* BEGIN: New T2 Code*/
+
+.nbaHpStory {
+	width: 405px;
+	height: 130px;
+	position: relative;
+	border-top:1px solid #ccc;
+}
+
+.nbaHpStoryImage {
+	position: absolute;
+	top: 24px;
+	z-index: 1;
+}
+
+.nbaHpStoryHeadline {
+	position: absolute;
+	top: 4px;
+	width: 405px;
+	height: 20px;
+}
+
+.nbaHpTextHolder {
+	position: absolute;
+	top: 24px;
+	left: 146px;
+	width: 259px;
+	height: 96px;
+}
+
+.nbaHpTextHolder a:link span,
+.nbaHpTextHolder a:visited span,
+.nbaHpTextHolder a:hover span,
+.nbaHpTextHolder a:active span {
+	font-weight: bold;
+}
+
+.nbaHpStoryHeadline a:link,
+.nbaHpStoryHeadline a:visited,
+.nbaHpStoryHeadline a:hover,
+.nbaHpStoryHeadline a:active {
+	font-size:14px;
+	font-weight:bold;
+}
+
+/* END: New T2 Code*/
+
+.nbaRightColumnHome
+	{
+	margin-right:10px;
+	margin-left:6px;
+	_margin-right:9px;
+	-margin-right:4px;
+	width:300px;
+	float:right;
+	}
+	
+#nbaBreakNewsBlock
+	{
+	width:608px;
+	height:51px;
+	margin-left:10px;
+	background-image:url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/global/nbaBreakingNewsBg.jpg');background-repeat: none;
+	background-position: top left;
+	margin-bottom:8px;
+	font-family:arial;
+	font-weight:bold;
+	font-size:15px!important;
+	color:#330000;
+	text-align:center;
+	}
+	
+#nbaBreakNewsBlock div
+	{
+	width:592px;
+	padding-top:15px;
+	font-family:arial;
+	font-weight:bold!important;
+	font-size:15px!important;
+	color:#330000;
+	}
+	
+#nbaBreakNewsBlock a, #nbaBreakNewsBlock a:visited, #nbaBreakNewsBlock a:hover
+	{
+	color:#fff;
+	font-weight:bold;
+	font-size:14px!important;
+	margin-left:5px;
+	}
+	
+	
+.nbaGalleriesBlock
+	{
+	border:1px solid #ccc!important;
+	width:268px;
+	_width:273px;
+	padding:2px;
+	margin-left:12px;
+	margin-bottom:6px;
+	}
+	
+#nbaGalleryBlockHolder
+	{
+	border:1px solid #ccc;
+	border-top:none;
+	width:298px;
+	_width:300px;
+	margin-top:0px;
+	padding-top:0px;
+	padding-bottom:6px;
+	}
+	
+.nbaPhotoGalleriesPod
+	{
+	width:300px;
+	margin-bottom:8px;
+	}
+	
+#nbaHpInTheNews
+	{
+	width:405px;
+	margin-left:15px;
+	margin-top:5px;
+	padding-top:8px;
+	color:#000;
+	margin-bottom:8px;
+	border-top:1px solid #ccc;
+	}
+	
+#nbaHpInTheNewsHder
+	{
+	float:left;
+	height:15px!important;
+	font-size:12px;
+	font-family:arial;
+	font-weight:bold;
+	margin-right:5px;
+	margin-bottom:5px;
+	
+	}
+	
+#nbaHpInTheNewsHderCss
+	{
+	float:left;
+	}
+	
+#nbaHpInTheNewsHderLnkCent
+	{
+	float:right;
+	height:15px;
+	}
+	
+#nbaHpInTheNewsTbl td
+	{
+	border-bottom:1px solid #ccc;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:12px;
+	color:#666;
+	}
+	
+#nbaHpInTheNewsBotLnk
+	{
+	width:405px;
+	margin-top:5px;
+	}
+	
+#nbaFanVoiceBox
+	{
+	width:438px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeNbaFanatasyBg.jpg);background-repeat:repeat-x;
+	border:1px solid #cccccc;
+	margin-bottom:8px;
+	}
+	
+#nbaFanVoiceGuts p
+	{
+	margin:0px;
+	padding:0;
+	padding-top:2px;
+	padding-bottom:2px;
+	}
+	
+#nbaFanVoiceGuts
+	{
+	width:420px;
+	margin-left:10px;
+	margin-top:10px;
+	font-weight:bold;
+	padding-bottom:10px;
+	}	
+	
+#nbaFanVoiceGuts p br
+	{
+	margin:0px;
+	padding:0;
+	}	
+/* NBA Fan Night Poll styles */
+#nbaFanNightPollForm 
+{
+	display:inline;
+}
+#nbaHomeFanNightPoll 
+{
+	margin-bottom: 8px;
+	width: 158px;
+}
+	#nbaHomeFanNightPoll .nbaPollBkColor 
+	{
+			background:#000;
+	}
+	#nbaHomeFanNightPoll .nbaFanNightPollImg 
+	{
+		position:relative;
+		height:169px; /* the height of the image */
+		background: url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/polls/fannight/nbaHomeFanNightPoll_bk.jpg') no-repeat scroll;
+	}
+	#nbaHomeFanNightPoll .nbaFanNightPollTitle 
+	{
+		position:absolute;
+		top:159px;
+		left:15px;
+		color: #fd6;
+		font-size: 11px;
+	}
+	#nbaHomeFanNightPoll .nbaPollTblContainer 
+	{
+		width:158px;
+		background:#000;
+		text-align:center;
+	}
+	#nbaHomeFanNightPoll table 
+	{
+		margin:5px auto 0px auto;
+	}
+	#nbaHomeFanNightPoll label 
+	{
+		color: #fff;
+		font-size:10px;
+		font-weight:bold;
+	}
+	#nbaHomeFanNightPoll .nbaPollBtn 
+	{
+		margin:6px 0px 0px 15px;
+		background:#000;
+	}
+	#nbaHomeFanNightPoll .nbaPollBtnVote 
+	{
+		float:left;
+	}
+	#nbaHomeFanNightPoll .nbaPollBtnResults 
+	{
+		float:left;
+		padding-top:3px;
+	}
+	#nbaHomeFanNightPoll .nbaPollBtnResults a 
+	{
+		margin-left:10px;
+	}
+	#nbaHomeFanNightPoll .nbaPollFooter 
+	{
+		 position:relative;
+		 _top:-8px;
+	}
+/* end NBA Fan Night Poll */
+
+/* end of homepage styles */
+
+
+/* Left Ad Rail for house promo and 160 x 600 ad section */
+
+#nbaStandingsHouseAnd600Ad
+	{
+	background:#e5e5e5;
+	height:954px;_height:956px;
+	float:left;
+	padding:1px;
+	}
+
+#nbaHouseAnd600Ad
+	{
+	background:#e5e5e5;
+	height:824px;_height:826px;
+	float:left;
+	padding:1px;
+	}
+
+#nbaAdBorder
+	{
+	border:1px solid #fff;
+	}
+	
+.nbaRightColumn
+	{
+	float:right;
+	width:300px;
+	
+	}
+
+
+	
+/* Styles for Ads */
+
+.nba160PromoAd
+	{
+	width:160px;
+	height:170px;
+	background:#000;
+	}
+
+.nba160PromoHomeAd
+	{
+	width:160px;
+	height:170px;
+	background:#fff;
+	margin-bottom:8px!important;
+	}
+	
+.nbaLeft600Ad
+	{
+	width:160px;
+	height:600px;
+	background:#000;
+	}
+	
+#nbaLeft600ScoreboardAd
+	{
+	width:153px;
+	margin-bottom:12px;
+	}
+	
+.nbaLeft262Ad
+	{
+	padding:0px;
+	margin:0px;
+	width:160px;
+	height:262px!important;
+	background:#fff;
+	margin-bottom:8px;
+	}
+	
+.right300Ad
+	{
+	width:300px;
+	background:#000;
+	margin-bottom:8px;
+	}
+	
+.right300x600Ad
+	{
+	width:300px;
+	background:#000;
+	margin-bottom:8px;
+	}
+
+.nbaPodWrapper {
+        margin: 8px 0px 8px 0px;
+}
+
+.nbaPodWrapper div {
+        display: inline-block;
+}
+
+.nbaPodSpacer {
+	width: 298px;
+	font-size: 8px;
+	height: 8px;
+}
+
+.nbapod
+	{
+	height:54px;
+	width:300px;
+	/*background-image:url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/global/PODs_background.jpg');background-repeat: repeat-x;background-position:top left;*/
+	margin-top:4px;
+	/* border:1px solid #ccc; */
+	}
+	
+.nbapodT
+	{
+	height:54px;
+	width:300px;
+	margin-top:4px;
+	border-bottom:1px dashed #ccc;
+	}
+	
+.nbapod div img
+	{
+	border:1px solid #666!important;
+	width:80px;
+	height:46px;
+	margin-top:3px!important;
+	margin-right:3px!important;
+	}	
+
+.nbaPodText
+	{
+	float:left;
+	width:165px;
+	margin-left:10px;
+	padding-top:5px;
+	}
+	
+.nbaPodTextText
+	{
+	text-align:left;
+	margin-right:10px;
+	margin-right:10px;
+	padding-top:5px;
+	}
+	
+.nbaPodTextText p
+	{
+	padding:0px;
+	margin:0px;
+	}	
+
+.nbaPodText p
+	{
+	padding:0px;
+	margin:0px;
+	}	
+	
+.nbaPodPtitle
+	{
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	width:190px;
+	}
+	
+.nbaPodPtexttext a
+	{
+	font-family:arial;
+	font-size:11px;
+	margin-left:5px;
+	
+	}
+	
+.nbaPodPtext a
+	{
+	font-family:arial;
+	font-size:11px;
+	color:#666!important;
+	width:190px;
+	}
+	
+.adCell
+	{
+	padding:10px;
+	}
+	
+	
+#nbaPageNameTools 
+	{
+	border-bottom:1px solid #ccc;
+	margin-bottom:8px!important;
+	padding-bottom:2px;
+	font-size:14px;
+	position: relative;
+	height: 23px;
+	}
+#nbaWebTools
+	{
+	position: absolute;
+	top: 3px;
+	right: 10px;
+	width: 928px;
+	text-align: right;
+	}
+	
+#nbaWebTools span
+	{
+	margin-left:5px;
+	margin-right:5px;
+	}
+	
+#nbaWebTools a:link, #nbaWebTools a:active, #nbaWebTools a:visited
+	{
+	text-decoration:none!important;
+	color:#0066cc;
+	}
+	
+#nbaWebTools a:hover
+	{
+	text-decoration:none!important;
+	color:#cc0000;
+	}
+	
+#nbaPgNameDiv
+	{
+	font-weight:bold;
+	font-size:17px;
+	font-family:Arial;
+	color:#0066cc;
+	text-transform: uppercase;
+	width: 530px;
+	padding-left: 10px;
+	padding-top: 2px;
+	}
+	
+/* photo page main page styles */
+	
+#nbaPhotosColumn
+	{
+	float:left;
+	width:437px;
+	margin-left:8px;
+	}
+	
+#nbaPhotosTbl
+	{
+	border:1px solid #ccc;
+	width:435px;
+	padding:0;
+	margin:0;
+	
+	}
+	
+#nbaPhotosTbl td img
+	{
+	border:none;
+	}
+	
+td.galleryNew
+	{
+	padding-left:9px;
+	font-size:12px;
+	padding-top:2px;
+	}
+	
+td.galleryNewTop
+	{
+	padding-left:9px;
+	font-size:12px;
+	padding-top:9px;
+	}
+	
+#nbaRecentGalHead
+	{
+	padding:0!important;
+	margin:0!important;
+	}
+
+#nbaRecentGalHead .nbaGalleryHeader
+	{
+		background-image:url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/subhdr_recent_galleries.jpg');background-repeat: repeat-x;
+		width: 435px;
+		height: 23px;
+	}
+
+#nbaRecentGalHead .nbaPagination
+	{
+		margin: 5px 12px 0px 0px;
+	}
+
+#nbaOtherGalls
+	{
+	margin-top:5px;
+	}	
+
+.nbaOtherGallsDiv
+	{
+	float:left; font-size:13px;width:200px;
+	}
+
+.nbaOtherGallsDiv a
+	{
+	margin-left:4px;
+	margin-right:4px;
+	}
+	
+.nbaOtherGallsImgDiv
+	{
+	float:left;
+	margin:2px;
+	margin-bottom:-2px;
+	}
+	
+.nbaOtherGallsImgDiv img
+	{
+	border:1px solid #000;
+	padding:0px;
+	margin:0px;
+	}
+	
+.nbaOtherGallsHolder
+	{
+	border:1px solid #ccc;
+	margin:8px;
+	margin-top:0;
+	}
+	
+#nbaOtherGallsLowerHalf
+	{
+	border:1px solid #ccc;
+	border-top:0;
+	}
+	
+#nbaOtherGallsTopHalf
+	{
+	height:35px;
+	margin:0;
+	_margin-bottom:-4px;
+	padding:0;
+	}
+	
+#nbaOtherGallsTopHalf img
+	{
+	margin:0;
+	padding:0;
+	border:none;
+	}
+	
+	
+/* ---------------------------styles to move for players page ---------------------*/
+
+a.thePlayers
+	{
+	font-size:13px!important;
+	}
+	
+
+	
+/* standings styles here to force change */
+
+table.genStatTable tr.title td.winloss {width:10%;}
+table.genStatTable tr.title td.ot{ width:10%; }
+
+
+/*  news and feature style */
+
+#nbaNandFBoxBorder
+	{
+	border:1px solid #ccc;
+	border-top:none;
+	margin-bottom:8px;
+	padding:8px;
+	}
+	
+/*  search news block */
+
+
+
+.nbaSearchNewsBox
+	{
+	 width:298px;
+	 _width:300px;
+	 height:64px;
+	 border:1px solid #ccc;
+	 background:#eaeaea;
+	 margin-bottom:8px;
+	}
+	
+.nbaSearchTextTitle
+	{
+	font-size:14px;
+	font-weight:bold;
+	font-family:arial;
+	color:#000;
+	padding-top:10px;
+	position:relative;
+	padding-left:13px;
+	}
+	
+.nbaSearchVideoBox
+	{
+	 width:300px;
+	 height:64px;
+	 padding-top:25px;
+	 padding-left:1px;
+	}
+	
+.nbaSearchVideoTextTitle
+	{
+	font-size:13px;
+	font-weight:bold;
+	font-family:arial;
+	color:#e6e6e6;
+	padding-top:10px;
+	position:relative;
+	padding-left:13px;
+	}
+	
+	
+	
+ #nbaVideoSearch
+ 	{
+ 	width:300px;
+ 	height:106px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoSearch.jpg);
+	background-repeat: repeat-x;
+	background-position:top left;
+ 	}
+ 	
+ /*
+#nbaVideoSearch {
+ 	width:300px;
+ 	height:100px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoSearch.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+*/
+ #nbaVideoInBetween
+ 	{
+ 	width:16px;
+ 	height:98px;
+ 	float:left;
+ 	background-image: url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoInBetween.jpg);
+ 	background-repeat:no-repeat;
+ 	}
+	
+#nbaInnerRgtColShift
+	{
+	margin-left:-8px;
+	}
+	
+#nbaVideoLiveNextShow
+	{
+	width:300px;
+	height:105px;
+	margin-bottom:8px;
+	
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoNextLiveShow.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+
+	
+#nbaVideoLiveNextShow table td
+	{
+font-size:11px!important;
+font-family:arial;
+line-height:13px;	
+	}
+	
+#nbaVideoLiveNextShow table td a:hover
+	{
+	color:#ccc;
+	}	
+	
+.subcontent table td
+	{
+	font-size:11px!important;
+font-family:arial;
+line-height:13px;	
+font-size:11px;
+font-family:arial;
+color:#fff;
+	}
+	
+#nbaVideoLiveNextShow h3
+	{
+	margin-top:0px;
+	padding-top:8px;
+	padding-left:10px;
+	padding-bottom:5px;
+	_padding-bottom:7px;
+	margin-bottom:0px;
+	color:#fff;
+	font-family:Verdana;
+	font-size:14px;
+	}
+	
+#nbaVideoLiveNextShow table
+	{
+	color:#fff;
+	position:relative;
+	left:15px;
+	}
+	
+#placeHolderVidChannel
+	{
+	width:300px;
+	height:538px!important;
+	_height:532px!important;
+	background-color:#000;;
+	margin-top:8px;
+	}
+		
+#nbaColumnists
+	{
+	border:1px solid #cbcbcb;
+	width:298px;
+	_width:300px;
+	margin-bottom:8px;
+	}
+	
+#nbaColumnists img
+	{
+	border:none;
+	}
+	
+
+	
+.nbaColumnistImg img
+	{
+	margin:0px 20px 0px 10px!important;
+	}
+	
+.nbaColumnistTitle a
+	{
+	padding-top:5px;
+	font-size:15px;
+	font-weight:bold;
+	}
+	
+.nbaColumnistTitle p
+	{
+	margin:0px!important;
+	padding:0;
+	}
+	
+.nbaColumnistAuthor
+	{
+	font-size:11px;
+	color:#000;
+	}
+			
+.nbaColumnistArticle
+	{
+	color:#747474;
+	font-size:10px;
+	background-color:#fff;
+	padding-left:5px;
+	height:18px;
+	}
+	
+.nbaNewsColumnAuthor
+	{
+	padding:0px;
+	margin:0px;
+	color:#333333;
+	font-size:11px;
+	font-weight:bold;
+	font-family:arial;
+	margin-left:10px;
+	}
+	
+.nbaNewsColumnTitle
+	{
+	padding:0px;
+	margin:0px;
+	font-size:11px;
+	font-family:arial;
+	margin-left:10px;
+	color:#0066cc;
+	}
+	
+.nbaNewsColumnArticle
+	{
+	padding:0px;
+	margin:0px;
+	font-size:11px;
+	font-family:arial;
+	margin-left:10px;
+	color:#666;
+	}
+	
+.nbaNewsReadArticle
+	{
+	padding:0px;
+	margin:0px;
+	font-size:11px;
+	font-family:arial;
+	margin-left:10px;
+	color:#0066cc;
+	}
+	
+/*
+	Vertical Accordions
+*/
+.accordion_toggle {
+	background: url(http://i.cdn.turner.com/nba/nba/images/accordion_toggle.jpg) no-repeat top right #a9d06a;
+	padding: 0 10px 0 10px;
+	line-height: 30px;
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	font-size: 12px;
+	color: #000000;
+	border-bottom: 1px solid #cde99f;
+	cursor: pointer;
+	margin: 0 0 0 0;
+}
+.accordion_toggle_active {
+	background: url(http://i.cdn.turner.com/nba/nba/images/accordion_toggle_active.jpg) no-repeat top right #e0542f;
+	color: #ffffff;
+	border-bottom: 1px solid #f68263;
+}
+.accordion_content {
+	background-color: #ffffff;
+	color: #444444;
+}
+.accordion_subcontent {
+	border: 1px solid #f68263;
+}
+.vertical_container {
+	border: 1px solid #cde99f;
+	width: 150px;
+	height: 208px;
+	overflow: hidden;
+}
+
+/* Home Page Includes */
+#nbaHomeTntOverTime
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeTntOverTime.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+/* Home Page Country Classes*/
+
+#nbaHomeCanadaNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeCANbaTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+#nbaHomeRaptorsTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeRaptorsTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}	
+	
+#nbaHomeEspanolNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeEspanolNbaTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+#nbaHomeFranceNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeFranceNbaTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+#nbaHomeGermanyNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeGermanyNbaTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+#nbaHomeItalyNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeItalyNbaTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+#nbaHomeJapanNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeJapanNbaTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+#nbaHomePhilippinesNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomePhilippinesNbaTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+#nbaHomeUKNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeUKNbaTv.jpg);background-repeat:no-repeat;background-position:top left;
+	}
+	
+	/*New styles added for clickable image on tv boxes on hp*/
+#nbaHomeNbaTv table, #nbaHomeTntOverTime table
+	{
+	position:relative;
+	top:10px;
+	left:10px;
+	}
+	
+.nbaHomeTVBoxHeader
+	{
+	position:relative;
+	top:5px;
+	left:6px;
+	margin:0px;
+	padding:0px;
+	}
+	
+.nbaHomeTntOverTimeLink
+	{
+	font-weight:bold;
+	}
+	
+.nbaHomeNbaTvLink
+	{
+	font-weight:bold;
+	}
+	/* End of new styles added for clickable image on tv boxes on hp*/
+
+	
+ #nbaHomeCanadaNbaTv table, #nbaHomeRaptorsTv table, #nbaHomeUKNbaTv table, #nbaHomePhilippinesNbaTv table, #nbaHomeJapanNbaTv table, #nbaHomeItalyNbaTv table, #nbaHomeGermanyNbaTv table, #nbaHomeFranceNbaTv table, #nbaHomeEspanolNbaTv table
+	{
+	_margin-top:-2px;
+	position:relative;
+	top:42px;
+	left:10px;
+	}
+		
+#nbaHomeTVBox a
+	{
+	text-decoraton:none;
+	}
+	
+#nbaHomeNbaTv
+	{
+	width:300px;
+	height:110px;
+	margin:0;
+	margin-bottom:8px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeNbaTv.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;	
+	}
+	
+.nbaHomeTVBoxImg
+	{
+	line-height:13px;
+	}
+	
+.nbaHomeTVBoxLink
+	{
+	font-weight:bold;
+	}
+	
+.nbaHomeTVBoxTitle
+	{
+	line-height:12px;
+	padding-left:10px;
+	}
+	
+#nbaHomeTVBox table td
+	{
+	font-size:11px!important;
+	font-family:arial;
+	line-height:13px;
+	}
+
+#nbaHomeLeaguePass
+	{
+	width:300px;
+	height:84px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeNbaLeaguePass.jpg);
+	background-repeat:no-repeat;
+	margin-bottom:8px;
+	padding-top:5px;
+	padding-left:5px;
+	}
+	
+#nbaHomeLeaguePass img
+	{
+	border:none;
+	position:relative;
+	top:2px;
+	left:2px;
+	}
+	
+.nbaHomeLeaguePassTd
+	{
+	padding-left:8px;
+	}
+
+.nbaHomeLeaguePassTxt
+	{
+	font-size:10px;
+	font-family:arial;
+	}
+.nbaHomeLeaguePassLink
+	{
+	font-weight:bold;
+	}
+
+#nbaHomeLeaguePass table
+	{
+	border-collapse:collapse;
+	margin-top:6px;
+	_margin-top:10px;
+	margin-left:3px;
+	}
+	
+#nbaHomeFantasy
+	{
+	width:298px;
+	height:179px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeNbaFanatasyBg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #cccccc;
+	margin-bottom:8px;
+	}
+	
+#nbaHomeFantasy table
+	{
+	position:relative;
+	top:2px;
+	}
+	
+.nbaHomeFantasyTitleImgs
+	{
+	font-family:Arial;
+	font-size:11px;
+	position:relative;
+	left:11px;
+	top:3px;
+	font-weight:bold;
+	color:#333333;
+	}
+	
+.nbaHomeFantasyRssImg
+	{
+	position:relative;
+	top:2px;
+	}
+
+.nbaHomeFantasyContent
+	{
+	font-size:14px;
+	font-family:arial;
+	font-weight:bold;
+	}
+	
+.nbaHomeFantasyMainContent
+	{
+	font-size:10px;
+	font-family:arial;
+	}
+	
+#nbaHomeGlobal
+	{
+	width:298px;
+	height:190px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeNbaFanatasyBg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #cccccc;
+	}
+	
+#nbaHomeGlobal table
+	{
+	position:relative;
+	top:3px;
+	}
+	
+.nbaHomeGlobalTitleImgs
+	{
+	font-family:arial;
+	font-size:11px;
+	position:relative;
+	left:11px;
+	top:5px;
+	_top:4px;
+	font-weight:bold;
+	color:#333333;
+	}
+	
+.nbaHomeGlobalMainTitle
+	{
+	font-size:11px;
+	font-weight:bold;
+	font-family:arial;
+	}
+	
+.nbaHomeGlobalMain
+	{
+	font-size:10px;
+	font-family:arial;
+	}
+	
+.nbaHomeaLHeadlineHP
+	{
+	font-family:arial;
+	font-size:10px;
+	}
+	
+.nbaHomeGlobalCountries
+	{
+	font-family:arial;
+	font-size:11px;
+	}
+	
+#nbaHomeNbaStore
+	{
+	width:160px;
+	height:218px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeNbaStoreBg.jpg);
+	background-repeat:repeat-x;
+	border:1px solid #cccccc;
+	margin-bottom:8px;
+	}
+	
+.nbaHomeNbaStoreHeader
+	{
+	font-family:arial;
+	font-weight:bold;
+	position:relative;
+	top:22px;
+	left:6px;
+	font-size:11px;
+	color:#333333;
+	}
+	
+.nbaHomeNbaStoreTitle
+	{
+	margin-bottom: 5px;
+	text-align:right;
+	font-family:arial;
+	font-size:12px;
+	position:relative;
+	top:40px;
+	right:10px;
+	}
+	
+#nbaHomeStorehpid
+	{
+	position:relative;
+	bottom:55px;
+	}
+	
+#nbaHomeStoreProductLink
+	{
+	text-decoration:none;
+	}
+	
+.nbaHomeNbaStoreProductImg
+	{
+	float:left;
+	position:relative;
+	top:95px;
+	left:3px;
+	}
+
+.nbaHomeNbaStoreProductInfo
+	{
+	text-align:center;
+	text-decoration:none;
+	font-size:10px;
+	margin-top:50px;
+	}
+	
+.nbaHomeNbaStoreTxt
+	{
+	_position:relative;
+	_right:1px;
+	position:relative;
+	text-align:center;
+	top:90px;
+	}
+#nbaHomePhotoGalleriesImg
+	{
+background-image:url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/global/photos_galleries_header.jpg');background-repeat:no-repeat;
+height:51px;
+	}
+	
+	/* Home Newsletter Include*/
+#nbaHomeNewsLetter	
+	{
+	width:160px;
+	height:121px;
+	border:1px solid #cccccc;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/home/nbaHomeNewsLetterBg.jpg);
+	background-repeat:repeat-x;
+	margin-bottom:8px;
+	}
+	
+#nbaHomeNewsletterForm
+	{
+	position:relative;
+	left:10px;
+	_left:7px;
+	padding:0px;
+	margin:0px;
+	margin-top:25px;
+	_margin-top:15px;
+	}
+	
+.nbaHomeNewsLetter
+	{
+	font-family:arial;
+	font-weight:bold;
+	position:relative;
+	top:8px;
+	left:6px;
+	font-size:11px;
+	color:#333333;
+	}
+	
+#nbaHomeNewsletterForm p
+	{
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+	font-size:11px;
+	width:140px;
+	}
+	
+
+
+/* Video Store Double Items Include*/
+#nbaVideoStoreDouble
+	{
+	width:300px;
+	height:229px;
+	border:1px solid #cccccc;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoStoreDoubleBg.jpg);
+	background-repeat:repeat-x;
+	margin-bottom:8px;
+	}
+
+#nbaVideoStoreDouble a
+	{
+	text-decoration:none;
+	}
+	
+#nbaVideoStoreDouble table
+	{
+	position:relative;
+	top:25px;
+	margin:0 auto;
+	border-bottom:1px solid #cccccc;
+	padding:5px;
+	_top:35px;
+	_left:10px;
+	}
+	
+#nbaVideoStoreDouble table p
+	{
+	margin:0px;
+	padding:0px;
+	font-size:11px;
+	font-family:arial;
+	margin-left:10px;
+	}
+
+.nbaVideoStoreDoubleSecondTable
+	{
+	position:relative;
+	top:40px;
+	margin:0 auto;
+	padding:2px;
+	border:none;
+	}
+	
+.nbaHomeNbaStoreDoubleHeader
+	{
+	font-family:arial;
+	font-weight:bold;
+	position:relative;
+	top:7px;
+	left:6px;
+	_top:18px;
+	_left:10px;
+	font-size:11px;
+	color:#333333;
+	}
+	
+#nbaVideoStoreDoubleViewItems
+	{
+	float:right;
+	margin-top:27px;
+	margin-right:5px;
+	}
+	
+#nbaVidoeStoreDoubleViewItems p a
+	{
+	font-size:10px;
+	font-family:arial;
+	}
+	
+/* League Pass*/
+
+#nbaLeaguePassMain
+	{
+	width:618px;
+	float:left;
+	position:relative;
+	left:15px;
+	}
+	
+#nbaLeaguePassMainHero
+	{
+	width:608px;
+	height:235px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassHero.jpg);
+	background-repeat:no-repeat;
+	}
+	
+#nbaLeaguePassMainHero p
+	{
+	margin:0px;
+	padding:0px;
+	color:#fff;
+	font-family:arial;
+	}
+	
+.nbaLeaguePassTxt
+	{
+	font-family:arial;
+	font-size:28px;
+	font-weight:bold;
+	width:277px;
+	position:relative;
+	left:85px;
+	top:85px;
+	}
+	
+.nbaLeaguePassTableMiddle
+	{
+	background-color:#e0eaf0;
+	}
+	
+#nbaLeaguePassBestForLeftMiddle
+	{
+	background-color:#e0eaf0;
+	}
+	
+#nbaLeaguePassBestForRightMiddle
+	{
+	background-color:#e0eaf0;
+	}
+	
+#nbaLeaguePassGrayMiddle
+	{
+	background-color:#adc3d2;
+	height:48px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	}
+	
+#nbaLeaguePassBestForLeftMiddleBottom
+	{
+	height:52px;
+	background-color:#e0eaf0;
+	}
+	
+.nbaLeaguePassBlueBoxTxt
+	{
+	float:right;
+	width:114px;
+	height:30px;
+	font-size:14px;
+	position:relative;
+	top:118px;
+	right:18px;
+	}
+	
+.nbaLeaguePasBestForBottom
+	{
+	position:relative;
+	top:10px;
+	left:10px;
+	_position:relative;
+	_top:-10px;
+	}
+		
+.nbaLeaguePassHeadLineMain
+	{
+	font-size:32px;
+	font-family:arial;
+	font-weight:bold;
+	margin:0 auto;
+	padding-top:2px;
+	color:#003399;
+	}
+	
+.nbaLeaguePassHeadLineLive
+	{
+	color:#cc0000;
+	}
+	
+.nbaLeaguePassHead900
+	{
+	font-size:18px;
+	font-family:arial;
+	width:547px;
+	color:#333333;
+	}
+	
+.nbaLeaguePassHeadSubScription
+	{
+	font-size:18px;
+	font-weight:bold;
+	color:#cc0000;
+	}
+	
+#nbaLeaguePassBestFor
+	{
+	width:618px;
+	
+	}
+	
+#nbaLeaguePassBestForLeft
+	{
+	width:304px;
+
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassBestForLef2t.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	padding-right:2px;
+	}
+#nbaLeaguePassBestFor ul
+	{
+	padding:0px;
+	margin-left:30px;
+	}
+	
+#nbaLeaguePassBestFor ul li
+	{
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassBestForBullet.jpg) ;
+	list-style-type:none;
+	background-repeat:no-repeat;
+	background-position:left;
+	font-size:12px;
+	padding-left:10px;
+	color:#333333;
+	}
+	
+.nbaLeaguePassBestForLeftHeadline
+	{
+	font-size:14px;
+	color:#333333;
+	width:250px;
+	margin:0 auto;
+	_margin-left:20px;
+	}
+	
+.nbaLeaguePassBestForImg
+	{
+	margin-left:20px;
+	}
+	
+.nbaLeaguePassBestForImgRight
+	{
+	margin-left:20px;
+	}
+	
+#nbaLeaguePassBestForRight
+	{
+	width:304px;
+	height:440px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassBestForLeft2.jpg);
+	background-repeat:no-repeat;
+	float:right;
+	}
+	
+.nbaLeaguePassBestForLeftTitle
+	{
+	font-size:16px;
+	font-weight:bold;
+	color:#336699;
+	margin-left:10px;
+	_margin-top:10px;
+	}
+	
+.nbaLeaguePassCallOut
+	{
+	font-size:12px;
+	font-weight:bold;
+	color:#cc0000;
+	margin-left:30px;
+	}
+	
+.nbaLeaguePassCallOutRight
+	{
+	font-size:12px;
+	font-weight:bold;
+	color:#cc0000;
+	margin-left:30px;
+	_position:relative;
+	_bottom:10px;
+	}
+	
+#nbaLeaguePassBottom
+	{
+	clear:both;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassBottom.jpg);
+	background-repeat:no-repeat;
+	width:618px;
+	height:84px;
+	}
+	
+.nbaLeaguePassBottomTitle	
+	{
+	padding:0px;
+	margin:0px;
+	font-size:12px;
+	font-weight:bold;
+	color:#003399;
+	position:relative;
+	top:10px;
+	left:20px;
+	}
+	
+.nbaLeaguePassTvIncludesTitle
+	{
+	padding:0px;
+	margin:0px;
+	font-size:13px;
+	color:#000;
+	position:relative;
+	top:10px;
+	left:20px;
+	}
+	
+.nbaLeaguePassTvIncludesBigTitle
+	{
+	padding:0px;
+	margin:0px;
+	font-size:16px;
+	font-weight:bold;
+	color:#003399;
+	position:relative;
+	top:10px;
+	left:20px;
+	}
+
+.nbaLeaguePassBottomText
+	{
+	width:570px;
+	font-size:12px;
+	font-family:arial;
+	color:#666666;
+	position:relative;
+	top:10px;
+	left:20px;
+	}
+	
+#nbaLeaguePassGameControl	
+	{
+	width:300px;
+	height:235px;
+background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassLaunchGameControl.jpg);
+	background-repeat:no-repeat;
+	margin-bottom:8px;
+	}
+	
+#nbaLeaguePassQuickLinks	
+	{
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassQuickLinks.jpg);
+	background-repeat:no-repeat;
+	width:300px;
+	height:103px;
+	margin-bottom:8px;
+	}
+	
+#nbaLeaguePassQuickLinks	 p
+	{
+	font-size:12px;
+	font-family:arial;
+	font-weight:bold;
+	position:relative;
+	left:10px;	
+	top:5px;
+	}
+	
+#nbaLeaguePassQuickLinks ul
+	{
+	position:relative;
+	top:8px;
+	_position:relative;
+	_top:1px;
+	}
+
+#nbaLeaguePassQuickLinks	 ul li
+	{
+	list-style-type:none;
+	font-size:11px;
+	color:#003399;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassQuickLinksBullet.jpg) ;
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:10px;
+	}
+	
+#nbaLeaguePassOnlineHeadLine
+	{
+	width:608px;
+	height:324px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassOnlineMainGameControl.jpg);
+	background-repeat:no-repeat;
+	padding-bottom:10px;
+	}
+	
+#nbaLeaguePassTvHeadLine
+	{
+	width:617px;
+	height:324px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassTvMain.jpg);
+	background-repeat:no-repeat;
+
+	}
+	
+#nbaLeaguePassTvHeadLine ul
+	{
+	width:283px;
+	position:relative;
+	right:20px;
+	}
+	
+#nbaLeaguePassTvHeadline ul li
+	{
+	list-style-type:none;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassBestForBullet.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	padding-left:10px;
+	padding-bottom:2px;
+	font-size:11px;
+	}	
+	
+	#nbaLeaguePassTvIncludes ul
+	{
+	width:283px;
+	position:relative;
+	right:20px;
+	_bottom:5px;
+	}
+	
+#nbaLeaguePassTvIncludes ul li
+	{
+	list-style-type:none;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassBestForBullet.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	padding-left:10px;
+	padding-bottom:2px;
+	font-size:11px;
+	}	
+	
+#nbaLeaguePassOnlineHeadLine ul
+	{
+	width:283px;
+	position:relative;
+	right:20px;
+	}
+	
+#nbaLeaguePassOnlineHeadline ul li
+	{
+	list-style-type:none;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassBestForBullet.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	padding-left:10px;
+	padding-bottom:2px;
+	font-size:11px;
+	}
+	
+.nbaLeaguePassOnlineHeadLineMain
+	{
+	font-size:32px;
+	font-family:arial;
+	font-weight:bold;
+	margin:0 auto;
+	padding-top:2px;
+	color:#003399;
+	margin-left:20px;
+	}
+
+.nbaLeaguePassTvHeadLineMain
+	{
+	font-size:32px;
+	font-family:arial;
+	font-weight:bold;
+	margin:0 auto;
+	padding-top:2px;
+	color:#003399;
+	margin-left:20px;
+	}
+	
+.nbaLeaguePassOnlineTable	
+	{
+	position:relative;
+	left:5px;
+	}
+	
+#nbaLeaguePassPackage1
+	{
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassOnlinePackage1.jpg);
+	background-repeat:no-repeat;
+	width:190px;
+	height:240px;
+	padding-right:3px;
+	}
+	
+#nbaLeaguePassPackage1 img
+	{
+	position:relative;
+	top:187px;
+	left:51px;
+	}
+	
+#nbaLeaguePassPackage1 p, #nbaLeaguePassPackage1 p, #nbaLeaguePassPackage1 p
+	{
+	padding:0px;
+	margin:0px;
+	}
+
+.nbaLeaguePassPackageTitle
+	{
+	position:relative;
+	top:15px;
+	left:10px;
+	padding:0px;
+	margin:0px;
+	font-size:11px;
+	font-weight:bold;
+	}
+	
+.nbaLeaguePassPackageTitleBig	
+	{
+	position:relative;
+	top:15px;
+	left:10px;
+	font-size:19px;
+	font-weight:bold;
+	}
+	
+#nbaLeaguePassPackage2
+	{
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassOnlinePackage2.jpg);
+	background-repeat:no-repeat;
+	width:200px;
+	height:240px;
+	padding-right:3px;
+	}
+	
+#nbaLeaguePassPackage3
+	{
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassOnlinePackage3.jpg);
+	background-repeat:no-repeat;
+	width:200px;
+	height:240px;
+	padding-right:3px;
+	}
+	
+#nbaLeaguePassOnlineBottom
+	{
+	width:608px;
+	height:149px;
+	margin-top:10px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassOnlineBottom.jpg);
+	background-repeat:no-repeat;
+	}
+	
+#nbaLeaguePassOnlineBottom ul	
+	{
+	position:relative;
+	right:20px;
+	top:7px;
+	_top:3px;
+	}
+	
+#nbaLeaguePassOnlineBottom ul li
+	{
+	list-style-type:none;
+	font-size:11px;
+	font-family:arial;
+	}
+	
+#nbaLeaguePassOnlineSteps
+	{
+	width:300px;
+	}
+	
+.nbaLeaguePassOnlineStepsTitle
+	{
+	font-size:16px;
+	font-family:arial;
+	font-weight:bold;
+	color:#000099;
+	text-align:center;
+	}
+	
+.nbaLeaguePassOnlineRed
+	{
+	font-size:16px;
+	font-weight:bold;
+	color:#cc0000;
+	}
+	
+.nbaLeaguePassOnlineStepsText
+	{
+	font-size:16px;
+	}
+	
+#nbaLeaugePassOnlineStep1
+	{
+	width:300px;
+background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassOnlineStepsBg.jpg);
+	background-repeat:no-repeat;
+	padding-bottom:3px;
+	}
+	
+#nbaLeaugePassOnlineStep1 p, #nbaLeaugePassOnlineStep2 p, #nbaLeaugePassOnlineStep3 p
+	{
+	position:relative;
+	top:10px;
+	left:20px;
+	_top:4px;
+	_padding-bottom:3px;
+	}
+	
+.nbaLeaguePassOnlineStepsTextBody
+	{
+	width:262px;
+	}
+
+.articleTable
+       {
+           border-top: 0px !important;
+       }
+    
+#nbaLeaguePassTvIncludes
+	{
+	width:608px;
+	height:221px;
+	
+background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassTvGameControl.jpg);
+	background-repeat:no-repeat;
+	}
+	
+#nbaLeaguePassTvCallOut
+	{
+	float:right;
+	width:160px;
+	font-size:12px;
+	position:relative;
+	top:140px;
+	right:33px;
+	}
+
+.nbaLeaguePassTvCallOutTitle
+	{
+	text-align:center;
+	font-weight:bold;
+	}
+	
+.nbaLeaguePassTvCallOutLink
+	{
+	font-size:12px;
+	font-family:arial;
+	color:#003399;
+	position:relative;
+	bottom:5px;
+	left:10px;
+	text-decoration:underline;
+	}
+	
+#nbaLeaguePassTvCallOut p 
+	{
+	padding:0px;
+	margin:0px;
+	color:#003399;
+	}
+	
+#nbaLeaguePassTvBottom ul li
+	{
+	list-style-type:none;
+	position:relative;
+	right:20px;
+	top:7px;
+	font-size:11px;
+	font-family:arial;
+	color:#666666;
+	}
+	
+#nbaLeaguePassTvOrderNow
+	{
+	width:302px;
+	position:relative;
+	right:7px;
+	_margin-bottom:8px;
+	}
+	
+.nbaLeaguePassTvOrderTitle
+	{
+	font-size:16px;
+	font-weight:bold;
+	color:#000099;
+	margin-left:20px;
+	}
+	
+#nbaLeaguePassTvOrderContact
+	{
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassTvOrderContact.jpg);
+	background-repeat:no-repeat;
+	width:300px;
+	height:52px;
+	margin-bottom:20px;
+	_margin-bottom:25px;
+	}
+	
+#nbaLeaguePassTvOrderContact p
+	{
+	width:214px;
+	font-size:16px;
+	font-family:arial;
+	color:#333333;
+	margin:0 auto;
+	position:relative;
+	top:8px;
+	_left:45px;
+	}
+	
+#nbaLeaguePassTvDirect
+	{
+	width:302px;
+	height:105px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassTvDirect.jpg);
+	background-repeat:no-repeat;
+	}
+	
+	
+#nbaLeaguePassTvDirect img
+	{
+	float:right;
+	position:relative;
+	right:26px;
+	top:19px;
+	}
+#nbaLeaguePassTvDirect p
+	{
+	padding:0px;
+	margin:0px;
+	}
+	
+.nbaLeaguePassTvDirectTitle
+	{
+	font-size:18px;
+	font-weight:bold;
+	position:relative;
+	left:20px;
+	top:10px;
+	width:168px;
+	}
+	
+.nbaLeaguePassTvDirectSubTitle
+	{
+	font-size:11px;
+	position:relative;
+	left:20px;
+	top:7px;
+	width:168px;
+	}
+	
+.nbaLeaguePassTvDirectNum
+	{
+	position:relative;
+	left:20px;
+	top:15px;
+	font-size:20px;
+	font-weight:bold;	
+	color:#003399;
+	width:168px;
+	}
+	
+#nbaLeaguePassTvDish
+	{
+	width:302px;
+	height:110px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassTvDish.jpg);
+	background-repeat:no-repeat;
+	}
+	
+	#nbaLeaguePassTvDish img
+	{
+	float:right;
+	position:relative;
+	right:26px;
+	top:23px;
+	}
+#nbaLeaguePassTvDish p
+	{
+	padding:0px;
+	margin:0px;
+	}
+		
+#nbaLeaguePassTvInDemand
+	{
+	width:302px;
+	height:105px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/leaguepass/nbaLeaguePassTvInDemand.jpg);
+	background-repeat:no-repeat;
+	}
+	
+	
+	#nbaLeaguePassTvInDemand img
+	{
+	float:right;
+	position:relative;
+	right:20px;
+	top:40px;
+	_right:18px;
+	_top:45px;
+	}
+#nbaLeaguePassTvInDemand p
+	{
+	padding:0px;
+	margin:0px;
+	}
+	
+.nbaFantasyDraftKitMiddle
+	{
+	background-color:#eeeeee;
+	width:381px;
+	}
+	
+.nbaFantasyGetKitMiddle
+	{
+	background-color:#114b9b;
+	width:445px;
+	}
+	
+#nbaFantasyGetKit
+	{
+	width:440px;
+	height:283px;
+	background-color:#114b9b;
+	border-top:1px solid #1e57a4;
+	border-bottom:1px solid #1e57a4;
+	margin-left:10px;
+	_margin-left:10px;
+	}
+	
+.nbaFantasyLatestUpdate
+	{
+	font-family:arial;
+	font-size:11px;
+	color:#fff;
+	}
+	
+.nbaFantasyLatestUpdate a
+	{
+	font-family:arial;
+	font-size:11px;
+	color:#fff;
+	text-decoration:underline;
+	}
+	
+#nbaFantasyGetKit table
+	{
+	position:relative;
+	bottom:21px;
+	left:6px;
+	_left:6px;
+	}
+	
+#nbaFantasyFreeDraftKit table
+	{
+	margin-left:5px;
+	_margin-left:15px;
+	}
+	
+.nbaFantasyFreeDraftKitTitle
+	{
+	font-family:helvetica:
+	font-size:14px;
+	color:#fff;
+	}
+	
+.nbaFantasyFreeDraftKitPreviewTitle
+	{
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	}
+	
+.nbaFantasyFreeDraftKitContent
+	{
+	font-family:arial;
+	font-size:11px;
+	color:#fff;
+	}
+
+
+.nbaFantasyGetKitContent
+	{
+	font-size:18px;
+	font-family:helvetica;
+	color:#fff;
+	}
+	
+#nbaFantasyFreeDraftKit	
+	{
+	width:450px;
+	padding-top:10px;
+	margin:0px auto;
+	}
+	
+.nbaFantasyTitle
+	{
+	font-family:helvetica;
+	font-size:30px;
+	font-weight:bold;
+	color:#003399;
+	margin-left:10px;
+	}
+	
+#nbaFantasyMain
+	{
+	width:437px;
+	background-color:#eeeeee;
+	float:left;
+	margin-left:10px;
+	}
+	
+#nbaFantasyMainMiddle
+	{
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	width:418px;
+	margin:0px auto;
+	_margin-left:10px;
+	}
+	
+.nbaFantasyOfficialDraftKit
+	{
+	font-family:helvetica;
+	font-size:20px;
+	color:#003399;
+	}
+	
+.nbaFantasyStatsandPlayer
+	{
+	font-size:14px;
+	font-family:helvetica;
+	font-weight:bold;
+	color:#333333;
+	}
+	
+.nbaFantasyIncludes
+	{
+	font-size:12px;
+	font-family:helvetica;
+	font-weight:bold;
+	color:#333333;
+	}
+	
+#nbaFantasyMainMiddle ul li
+	{
+	list-style-type:none;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/fantasy/nbaFantasyListImg.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	padding-left:15px;
+	padding-bottom:5px;	
+	}
+	
+.nbaFantasyList
+	{
+	margin:0px;
+	padding:0px;
+	}
+	
+#nbaFantasyMiddleBottom
+	{
+	padding-top:10px;
+	margin-left:10px;
+	width:323px;
+	float:left;
+	}
+		
+#nbaFantasyRight
+	{
+	width:470px;
+	float:right;
+	background-color:#114b9b;
+	position:relative;
+	margin-right:10px;
+	_margin-right:1px;
+	}
+	
+#nbaFantasyBottomContent
+	{
+	width:445px;
+	float:right;
+	clear:both;
+	text-align:left;
+	position:relative;
+	right:15px;
+	_right:23px;
+	font-family:helvetica;
+	font-size:11px;
+	color:#333333;
+	}
+	
+.mainContentWrapperSip
+      {
+           border-top: 0px !important;
+      }
+
+/* video players index page styles */
+#nbaVideoGrid {
+	table-layout: fixed;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* Set up the base column widths so that IE6/IE7 play nice and render table correctly */
+
+#nbaVideoGridColLeft {
+	width:10px;
+}
+#nbaVideoGridColSubLeft {
+	width:5px;
+}
+#nbaVideoGridColCell {
+	width:150px;
+}
+#nbaVideoGridColCell {
+	width:150px;
+}
+#nbaVideoGridColCell {
+	width:150px;
+}
+#nbaVideoGridColCellLast {
+	width:148px;
+}
+#nbaVideoGridColSubRight {
+	width:5px;
+}
+#nbaVideoGridColRight {
+	width:4px;
+}
+
+#nbaVideoGrid thead th,
+#nbaVideoGrid tfoot td,
+#nbaVideoGrid tbody td {
+	padding: 0px;
+	margin: 0px;
+	border-width: 0px;
+	text-align: left;
+	vertical-align: top;
+}
+
+#nbaVideoGrid thead th {
+	background-color: #000;
+}
+
+#nbaVideoGrid thead .nbaVideoGridHeader {
+	position:relative;
+	width: 608px;
+	height: 28px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridHeader.png') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridHeaderLeft {
+	height: 28px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridHeaderLeftRight.png') repeat-x scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridHeaderRight {
+	height: 28px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridHeaderLeftRight.png') repeat-x scroll 0px 0px;
+}
+
+/* BEGIN: Video Menu Items, to be replaced with rollovers */
+
+#nbaVideoGridWhatsNew:link,
+#nbaVideoGridWhatsNew:visited,
+#nbaVideoGridWhatsNew:hover,
+#nbaVideoGridWhatsNew:active,
+#nbaVideoGridGames:link,
+#nbaVideoGridGames:visited,
+#nbaVideoGridGames:hover,
+#nbaVideoGridGames:active,
+#nbaVideoGridTeams:link,
+#nbaVideoGridTeams:visited,
+#nbaVideoGridTeams:hover,
+#nbaVideoGridTeams:active,
+#nbaVideoGridPlayers:link,
+#nbaVideoGridPlayers:visited,
+#nbaVideoGridPlayers:hover,
+#nbaVideoGridPlayers:active,
+#nbaVideoGridTopPlays:link,
+#nbaVideoGridTopPlays:visited,
+#nbaVideoGridTopPlays:hover,
+#nbaVideoGridTopPlays:active,
+#nbaVideoGridMostPopular:link,
+#nbaVideoGridMostPopular:visited,
+#nbaVideoGridMostPopular:active,
+#nbaVideoGridMostPopular:hover {
+	float: left;
+	display: block;
+	height: 28px;
+	outline: none;
+}	
+
+/* BEGIN: What's New Menu */
+#nbaVideoGridWhatsNew:link,
+#nbaVideoGridWhatsNew:visited,
+#nbaVideoGridWhatsNew:hover,
+#nbaVideoGridWhatsNew:active {
+	width: 94px;
+	height: 28px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridWhatsNew.gif') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGridWhatsNew:hover {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridWhatsNew.gif') no-repeat scroll -94px 0px;
+}
+
+#nbaVideoGridWhatsNewSelected #nbaVideoGridWhatsNew:link,
+#nbaVideoGridWhatsNewSelected #nbaVideoGridWhatsNew:visited,
+#nbaVideoGridWhatsNewSelected #nbaVideoGridWhatsNew:hover,
+#nbaVideoGridWhatsNewSelected #nbaVideoGridWhatsNew:active {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridWhatsNew.gif') no-repeat scroll -94px 0px;
+}
+/* END: What's New Menu */
+
+/* BEGIN: Games Menu */
+#nbaVideoGridGames:link,
+#nbaVideoGridGames:visited,
+#nbaVideoGridGames:hover,
+#nbaVideoGridGames:active {
+	width: 57px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridGames.gif') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGridGames:hover {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridGames.gif') no-repeat scroll -57px 0px;
+}
+
+#nbaVideoGridGamesSelected #nbaVideoGridGames:link,
+#nbaVideoGridGamesSelected #nbaVideoGridGames:visited,
+#nbaVideoGridGamesSelected #nbaVideoGridGames:hover,
+#nbaVideoGridGamesSelected #nbaVideoGridGames:active {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridGames.gif') no-repeat scroll -57px 0px;
+}
+/* END: Games Menu */
+
+/* BEGIN: Teams Menu */
+#nbaVideoGridTeams:link,
+#nbaVideoGridTeams:visited,
+#nbaVideoGridTeams:hover,
+#nbaVideoGridTeams:active {
+	width: 55px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTeams.gif') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGridTeams:hover {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTeams.gif') no-repeat scroll -55px 0px;
+}
+
+#nbaVideoGridTeamsSelected #nbaVideoGridTeams:link,
+#nbaVideoGridTeamsSelected #nbaVideoGridTeams:visited,
+#nbaVideoGridTeamsSelected #nbaVideoGridTeams:hover,
+#nbaVideoGridTeamsSelected #nbaVideoGridTeams:active {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTeams.gif') no-repeat scroll -55px 0px;
+}
+/* END: Teams Menu */
+
+/* BEGIN: Players Menu */
+#nbaVideoGridPlayers:link,
+#nbaVideoGridPlayers:visited,
+#nbaVideoGridPlayers:hover,
+#nbaVideoGridPlayers:active {
+	width: 66px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridPlayers.gif') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGridPlayers:hover {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridPlayers.gif') no-repeat scroll -66px 0px;
+}
+
+#nbaVideoGridPlayersSelected #nbaVideoGridPlayers:link,
+#nbaVideoGridPlayersSelected #nbaVideoGridPlayers:visited,
+#nbaVideoGridPlayersSelected #nbaVideoGridPlayers:hover,
+#nbaVideoGridPlayersSelected #nbaVideoGridPlayers:active {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridPlayers.gif') no-repeat scroll -66px 0px;
+}
+/* END: Top Plays Menu */
+
+
+/* BEGIN: Players Menu 
+#nbaVideoGridTopPlays:link,
+#nbaVideoGridTopPlays:visited,
+#nbaVideoGridTopPlays:hover,
+#nbaVideoGridTopPlays:active {
+	width: 78px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTopPlays.gif') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGridTopPlays:hover {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTopPlays.gif') no-repeat scroll -78px 0px;
+}
+
+#nbaVideoGridTopPlaysSelected #nbaVideoGridTopPlays:link,
+#nbaVideoGridTopPlaysSelected #nbaVideoGridTopPlays:visited,
+#nbaVideoGridTopPlaysSelected #nbaVideoGridTopPlays:hover,
+#nbaVideoGridTopPlaysSelected #nbaVideoGridTopPlays:active {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTopPlays.gif') no-repeat scroll -78px 0px;
+}
+END: Top Plays Menu */   
+
+/* BEGIN: Top Plays Menu with corner */
+#nbaVideoGridTopPlays:link,
+#nbaVideoGridTopPlays:visited,
+#nbaVideoGridTopPlays:hover,
+#nbaVideoGridTopPlays:active {
+	width: 79px;
+	height:28px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTopPlaysCorner.gif') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGridTopPlays:hover {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTopPlaysCorner.gif') no-repeat scroll -79px 0px;
+}
+
+#nbaVideoGridTopPlaysSelected #nbaVideoGridTopPlays:link,
+#nbaVideoGridTopPlaysSelected #nbaVideoGridTopPlays:visited,
+#nbaVideoGridTopPlaysSelected #nbaVideoGridTopPlays:hover,
+#nbaVideoGridTopPlaysSelected #nbaVideoGridTopPlays:active {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridTopPlaysCorner.gif') no-repeat scroll -79px 0px;
+}
+/* END: Top Plays Menu with corner */
+
+/* BEGIN: Most Popular Menu */
+#nbaVideoGridMostPopular:link,
+#nbaVideoGridMostPopular:visited,
+#nbaVideoGridMostPopular:hover,
+#nbaVideoGridMostPopular:active {
+	width: 111px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridMostPopular.gif') no-repeat scroll 0px 0px;		
+}
+
+#nbaVideoGridMostPopular:hover {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridMostPopular.gif') no-repeat scroll -111px 0px;
+}
+
+#nbaVideoGridMostPopularSelected #nbaVideoGridMostPopular:link,
+#nbaVideoGridMostPopularSelected #nbaVideoGridMostPopular:visited,
+#nbaVideoGridMostPopularSelected #nbaVideoGridMostPopular:hover,
+#nbaVideoGridMostPopularSelected #nbaVideoGridMostPopular:active {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridMostPopular.gif') no-repeat scroll -111px 0px;
+}
+/* END: Most Popular Menu */
+
+/* END: Video Menu Items, to be replaced with rollovers */
+
+/* BEGIN: Subheader */
+
+#nbaVideoGrid thead .nbaVideoGridSubheader {
+	width: 608px;
+	height: 70px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheader.png') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderLarge {
+	width: 608px;
+	/*height: 97px;*/
+	height: 105px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheaderLarge.png') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderMedium {
+        width: 608px;
+        /*height: 97px;*/
+        height: 85px;
+        background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheaderLarge.png') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderSmall {
+        width: 608px;
+        height: 47px;
+        background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheader.png') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderGame {
+        width: 608px;
+        height: 79px;
+        background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheaderLarge.png') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderLeft div {
+	position: relative;
+	top: 70px;
+	width: 10px;
+	/*height: 27px;*/
+	height:35px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheaderLeft.png') repeat-y scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderRight div {
+	position: relative;
+	top: 70px;
+	width: 4px;
+	height: 35px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridRightTitle.png') repeat-y scroll 0px 0px;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridSubheaderLeft,
+#nbaVideoGrid tbody .nbaVideoGridSubheaderRight { 
+	background-color:#000;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubHeaderAd {
+	margin: 14px 0px 0px 7px;
+	width: 594px;
+	height: 31px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderLarge .nbaVideoGridSubHeaderAd {
+	margin: 5px 0px 0px 7px;
+	width: 594px;
+	height: 31px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridShow {
+	float:left;
+	position:relative;
+	z-index:999 !important;
+	top:15px;
+	left:15px;
+	color:#666666;
+}
+
+#nbaVideoGrid thead .nbaVideoGridCalendarImage {
+	position:relative;
+	top:3px;
+	left:4px;
+}
+
+#nbaVideoGrid thead .nbaDDGoButton {
+	position:relative;
+	float:left;
+	left:20px;
+	top:15px;
+}
+#nbaVideoGrid thead .nbaDDwithGo {
+	position:relative;
+	float:left;
+}
+#nbaVideoGrid thead .nbaBoxDefaultText {
+	position:relative;
+	top:4px;
+	right:5px;
+}
+
+/* END: Subheader */
+
+/* BEGIN: Footer */
+
+#nbaVideoGrid tfoot td {
+	width: 622px;
+	height: 32px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridFooter.png') no-repeat scroll 0px 0px;
+}
+
+/* END: Footer */
+
+/* BEGIN: Set up left and right rails */
+
+#nbaVideoGrid tbody .nbaVideoGridLeft {
+	width: 10px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheaderLeft.png') repeat-y scroll 0px 0px;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridLeft div {
+	position: relative;
+	bottom: 8px;
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridRight {
+	width: 4px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridRightTitle.png') repeat-y scroll 0px 0px;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridRight div {
+	position: relative;
+	bottom: 8px;
+	width: 4px;
+	height: 10px;
+	background-color: #000;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridSubLeft,
+#nbaVideoGrid tbody .nbaVideoGridSubRight {
+	width: 5px!important;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubLeft.png') repeat-y scroll 0px 0px;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridSubRight {
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubRight.png') repeat-y scroll 0px 0px;
+}
+
+/* END: Set up left and right rails */
+
+/* BEGIN: Set up main grid cells */
+
+#nbaVideoGrid tbody .nbaVideoGridCell,
+#nbaVideoGrid tbody .nbaVideoGridCellLast {
+	width: 149px;
+	height: 198px;
+	border-style: solid;
+	border-width: 1px 1px 1px 0px;
+	border-color: #7792a8;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridCellLast {
+	width: 148px;
+	border-width: 1px 0px 1px 0px;
+}
+
+/* END: Set up main grid cells */
+
+/* BEGIN: Set up internal cell elements */
+
+#nbaVideoGrid tbody .nbaVideoGridContent {
+	margin: 7px 0px 0px 7px;
+	width: 135px;
+	height: 176px;
+	color: #333;
+}
+
+/* The main content block for the table cell */
+#nbaVideoGrid tbody .nbaVideoGridContent .nbaVideoGridTextBlock {
+	margin-top: 1px;
+	font-size: 10px;
+}
+
+/* The area that shows the length of the video */
+#nbaVideoGrid tbody .nbaVideoGridContent span {
+	font-size: 9px;
+	margin-left: 3px;
+	color: #747474;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridContent .nbaSpanOverlay {
+	margin-left: 0px;
+}
+
+#nbaVideoGrid tbody .nbaCellImage {
+	display: block;
+	width: 136px;
+	height: 96px;
+	margin-bottom: 3px;
+	cursor: pointer;
+}
+
+.nbaVideoImageWrapper {
+	position: relative;
+	right: 1px;
+	float: left;
+	margin-bottom:3px;
+}
+
+/* letter box w/small red arrow that appears over the video image */
+.nbaVideoImageWrapper .nbaSpanOverlay {
+	 position: absolute;
+	 left: 0px;
+	 top: 0px;
+	 margin: 0px;
+	 display:block;
+	 width: 136px;
+	 height: 96px;
+	 background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaLetterBoxCellArrow.gif') no-repeat scroll 0px 0px;
+}
+	
+.nbaCellArrow {
+	display: block;
+	position: relative;
+	left: 53px;
+	bottom:24px;
+	width: 21px;
+	height: 21px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaSponsorItemImageArrow.gif') no-repeat scroll 0px 0px;
+}
+	
+#nbaVideoThumbNailAndPlay {
+	height:55px;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridContentFooter {
+	width: 135px;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridContent a:link,
+#nbaVideoGrid tbody .nbaVideoGridContent a:visited,
+#nbaVideoGrid tbody .nbaVideoGridContent a:hover,
+#nbaVideoGrid tbody .nbaVideoGridContent a:active {
+	color: #0066cc;
+	font-size: 9px;
+	font-weight: bold;
+	text-decoration: underline !important;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridContent .nbaVideoGridContentHeader:link,
+#nbaVideoGrid tbody .nbaVideoGridContent .nbaVideoGridContentHeader:visited,
+#nbaVideoGrid tbody .nbaVideoGridContent .nbaVideoGridContentHeader:hover,
+#nbaVideoGrid tbody .nbaVideoGridContent .nbaVideoGridContentHeader:active {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none !important;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridContentHeader.gif') repeat-x scroll 0px 0px;
+}
+
+/* END: Set up internal cell elements */
+
+/* BEGING: Set up Pagination */
+
+#nbaVideoGrid .nbaPagination {
+	margin: 4px 14px 4px 20px;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+}
+
+#nbaVideoGrid tfoot .nbaPagination {
+	margin: 5px 12px 0px 0px;
+}
+
+#nbaVideoGrid tbody .nbaVideoGridContent span IMG, div.nbaPagination IMG {display:inline;}
+
+/* END: Set up Pagination */
+
+/* BEGIN: Calendar Links */
+
+#nbaVideoGrid .nbaVideoGridCalendar {
+	margin: 19px 14px 0px 0px;
+	text-align: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666;
+}
+
+	
+.nbaVideoGridCalendar img
+	{
+	position:relative;
+	bottom:3px;
+	left:1px;
+	}
+
+/* END: Calendar Links */
+		
+#nbaSponsorFirstBar {
+ 	width:938px;
+}
+ 	
+.nbaVideoSponserUnderline {
+	font-weight:bold;
+}
+ 	
+.nbaVideoSponsorThumbs {
+ 	height:14px;
+}
+ 	
+#nbaSponsorFirstBar table a {
+ 	font-size:12px;
+ 	font-family:Arial;
+}
+ 	
+#nbaVideoScrollArea	{
+ 	width:938px;
+ 	height:290px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoFlashBg.jpg);
+	background-repeat:repeat-x;
+	padding-top:5px;
+ } 	
+
+/* Wrapper style classes for video thumbnail image */
+div.nbaVideoImageHighlightsWrapper {
+	position:relative;
+	float:left;
+	left: 9px;
+}
+				
+div.nbaVideoImageHighlightsWrapper img.nbaHiImgOverlay{
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:inline-block;
+	border-width:0px;
+}
+/* end Wrapper style classes for video thumbnail image */
+	
+td.nbaVideoGridCellHeader {
+	height:22px;
+	background-image:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbatopbluerail.jpg);background-repeat:x;background-position:top left;
+	color:#fff;
+}
+
+td.nbaVideoGridCellHeader table {
+	margin-left:10px;
+	margin-top:3px;
+}
+
+td.nbaVideoGridCellHeader table td {
+	color:#fff;
+	font-family:arial;
+	font-weight:bold;
+}
+
+td.nbaVideoGridCellHeader table td a:link,
+td.nbaVideoGridCellHeader table td a:visited,
+td.nbaVideoGridCellHeader table td a:hover,
+td.nbaVideoGridCellHeader table td a:active {
+	color: #fff;
+}
+	
+td.nbaVideoGridCellHeader table td a:hover {
+	color: #ccc;
+}
+
+td.nbaVideoGridCellFooter {
+	height:18px;
+	background:#003366;
+	text-align:right!important;
+	padding-right:10px!important;
+}
+
+td.nbaVidoeGridCellFooter img {
+}
+	
+td.nbaVideoGridCellFooter a:link,
+td.nbaVideoGridCellFooter a:visited,
+td.nbaVideoGridCellFooter a:hover,
+td.nbaVideoGridCellFooter a:active {
+	padding:0px;
+	margin:0px;
+	font-size:10px;
+	font-family:arial;
+	color:#fff;
+	height:18px!important;
+}
+	
+td.nbaVideoGridCellFooter a:hover {
+	color:#ccc;
+}
+	
+.nbaHereTable {
+	 margin-top:2px;
+}
+	
+.nbaHereTable td.nbaThisTD {
+	margin-top:2px!important;
+}
+	
+table#nbaVidTblTop {
+	background:#fff!important;
+}
+	
+#nbaVideoGrid thead .nbaVideoGridSubheaderMed {
+	width: 608px;
+	height: 86px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheaderLarge.png') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderLeft .nbaVideoGridSubHeaderLeftMed {
+	position: relative;
+	top: 70px;
+	width: 10px;
+	height: 16px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridSubheaderLeft.png') no-repeat scroll 0px 0px;
+}
+
+#nbaVideoGrid thead .nbaVideoGridSubheaderRight .nbaVideoGridSubHeaderRightMed {
+	position: relative;
+	top: 70px;
+	width: 4px;
+	height: 16px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaVideoGridRightTitle.png') repeat-y scroll 0px 0px;
+}
+#nbaVideoGrid thead .nbaVideoGridSubheaderMed .nbaVideoGridSubHeaderAd {
+	margin: 3px 0px 0px 7px;
+	width: 594px;
+	height: 31px;
+}
+/* BEGIN: Letters */
+
+#nbaVideoGrid .nbaVideoGridLetters {
+	margin: 5px 14px 0px 0px;
+	text-align: left;
+	font-size: 12px;
+	font-weight: bold;
+	line-height:15px;
+	color: #666;    
+	margin-left:20px;
+}
+
+#nbaVideoGrid .nbaVideoGridLetters a {
+	font-size:10px;
+}
+			
+#nbaVideoPlayerBox {
+	width:938px;
+	background:#000;
+}
+
+/* end of video players index page styles */
+
+/* styled dropdowns
+===================================================================================== */
+	/* dropdown and button, outermost containers */
+.nbaDDBoxContainer {
+	position: relative;
+	z-index: 3;
+}
+
+.nbaDDBox {
+	font-family: Arial, Helvetica, FreeSans, sans-serif;
+	width: 100%;
+	position: absolute;
+	top: 18px;
+	left: -5px;
+	display: none;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+/* overlay, outermost containers */
+.nbaDDOvrBoxContainer {
+	position: relative;
+	z-index: 3;
+}
+
+.nbaDDOvrBox {
+	width: 100%;
+	position: absolute;
+	display: none;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+/* dropdown button, wire box, white outside */
+.nbaBlue .nbaDDBtn {
+	background: url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaMenuBar.png') 100% 0 no-repeat;
+}
+
+.nbaBlue .nbaDDBtn .nbaDDBtnLeft {
+	background-color: #fff;
+}
+
+.nbaBlue .nbaWireBox .nbaBoxContent {
+	background: #fff;
+	border-left: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+}
+
+.nbaBlue .nbaWireBox .nbaBoxHeader {
+	height: 4px;
+	overflow: hidden;
+}
+
+.nbaBlue .nbaWireBox .nbaBoxHeader div {
+	height: 4px;
+	width: 4px;
+	background-color: #fff;
+}
+
+.nbaBlue .nbaWireBox .nbaBoxFooter {
+	height: 4px;
+	overflow: hidden;
+}
+
+.nbaBlue .nbaWireBox .nbaBoxFooter div {
+	height: 4px;
+	width: 4px;
+	background-color: #fff;
+}
+
+/* specificity */
+#nbaRightCol .nbaBlue .nbaWireBox .nbaBoxContent {
+	border-color: #e6e6e6;
+}
+
+/* specificity */
+#nbaRightCol .nbaBlueLtg .nbaWireBox .nbaBoxContent {
+	border-color: #e6e6e6;
+}
+
+/* dropdown button */
+.nbaDDContainer .nbaDDBtn {
+	cursor: pointer;
+	height: 23px;
+	overflow: hidden;
+}
+
+.nbaDDContainer .nbaDDBtn .nbaDDBtnLeft {
+	width: 4px;
+	height: 23px;
+}
+
+.nbaDDContainer .nbaDDBtn img {
+	display: block;
+	padding: 1px 4px 1px 15px;
+}
+
+.nbaDDContainer .nbaDDBtn .nbaDDValueContainer {
+	padding: 4px 0 5px 0;
+}
+
+.nbaDDContainer .nbaDDBtn .nbaDDValue {
+	position: relative;
+	bottom: 2px;
+	font-family: Arial, Helvetica, FreeSans, sans-serif;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 14px;
+	height: 14px;
+	color: #ffffff;
+}
+
+.nbaDDContainer .nbaWireBox {
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.nbaDDContainer .nbaWireBox .nbaBoxContent {
+	height: 15px;
+	position: relative;
+	z-index: 1;
+}
+
+.nbaDDContainer .nbaWireBox .nbaBoxContent .nbaDDValue {
+	position: absolute;
+	left: 8px;
+	top: 0;
+	overflow: hidden;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 14px;
+	height: 14px;
+	color: #004276;
+}
+
+.nbaDDContainer .nbaWireBox .nbaBoxContent img {
+	position: absolute;
+	top: -4px;
+	right: 6px;
+	width: 30px;
+	height: 23px;
+	z-index: 2;
+}
+
+/* specificity */
+#nbaRightCol  .nbaDDContainer .nbaWireBox {
+	margin: 0;
+}
+
+/* dropdown and overlay content box */
+.nbaDDBoxContent .nbaDDContent {
+	margin: 0 9px;
+	background: #fff;
+	/*border: 1px solid #cbcbcb;*/
+	border-left: 1px solid #043c67;
+	border-right: 1px solid #043c67;
+}
+
+.nbaDDBoxContent .nbaDDOvrCloseContainer {
+	position: relative;
+}
+
+.nbaDDBoxContent .nbaDDOvrClose {
+	position: absolute;
+	top: 7px;
+	right: 17px;
+	color: #000;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	z-index: 4;
+}
+
+.nbaDDBoxContent .nbaDDOvrTitle {
+	padding: 10px 12px 4px 12px;
+	overflow: hidden;
+}
+
+.nbaDDBoxContent .nbaDDContent .nbaDDList {
+	overflow: auto;
+}
+
+.nbaDDBoxContent .nbaDDContent ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nbaDDBoxContent .nbaDDContent li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.nbaDDBoxContent .nbaDDContent li a {
+	margin: 0;
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 12px;
+	color: #666666;
+	text-decoration: none;
+}
+
+.nbaDDBoxContent .nbaDDContent li a:visited {
+	color: #666666;
+}
+
+.nbaDDBoxContent .nbaDDContent li a:hover {
+	background: #eeeeee;
+	color: #cc0000;
+}
+
+.nbaDDBoxContent .nbaDDContent .nbaDDSeparator span {
+	margin: 0;
+	display: block;
+	height: 17px;
+	padding: 1px 12px 0 12px;
+	color: #c5c5c5;
+}
+
+div.nbaDDBoxFooter .nbaBlueAdjustable {
+	position:relative;
+	float:left;
+	/*width will be calculated and assigned inline in the js*/
+	text-align:center;
+	border-left:1px solid #043C67;
+	border-right:1px solid #043C67;
+	background:url(http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaMenuFooterBkSlice.gif) 0 0 repeat-x;
+}
+div.nbaDDList .nbaGraySeparator {
+	margin-left: 10px; 
+	margin-right: 10px; 
+	padding:1px 0px 1px 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+/* Transparent box borders */
+.nbaDDBoxContent {
+	width: 100%;
+	overflow: hidden;
+}
+
+.nbaDDBoxHeader {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 0px;
+	background: transparent;
+	display:none;
+}
+
+.nbaDDBoxHeader .nbaDDBoxHeaderTL {
+	margin-right: 9px;
+	height: 0px;
+	display:none;
+}
+
+.nbaDDBoxHeader .nbaDDBoxHeaderTR {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 9px;
+	height: 0px;
+	display:none;
+}
+
+.nbaDDBoxFooter {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 9px;
+	background: transparent;
+}
+
+.nbaDDBoxFooter .nbaDDBoxFooterBL {
+	margin-right: 0px;
+	height: 9px;
+	background: transparent url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/video/nbaMenuFooter.gif')	0 0 no-repeat;
+}
+
+.nbaDDBoxFooter .nbaDDBoxFooterBR {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 9px;
+	height: 9px;
+}
+
+/* end styled dropdowns
+===================================================================================== */
+
+
+/* Styles for Upfront and Pod Ads*/
+#nbaPodAd
+	{
+background-image:url('http://i.cdn.turner.com/nba/nba/.element/img/1.0/global/PODs_background.jpg');
+	background-repeat:repeat-x;
+	width:300px;
+	height:54px;
+	border:1px solid #cccccc;
+	}
+	
+#nbaPodAdTitleDiv
+	{
+	position:relative;
+	left:15px;
+	top:2px;
+	}
+
+.nbaPodAdTitle
+	{
+	font-family:arial;
+	font-weight:bold;
+	color:#0066cc;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	}
+	
+.nbaPodAdBlurb
+	{
+	font-size:11px;
+	color:#333333;
+	margin:0px;
+	padding:0px;
+	width:154px;
+	}
+	
+#nbaPodAdPlace
+	{
+	float:right;
+	border:1px solid #999999;
+	width:80px;
+	height:46px;
+	margin-top:3px;
+	position:relative;
+	left:10px;
+	}
+	
+	img
+	{
+	border:none;
+	}
+
+#nbaUpfrontAd	
+	{
+	width: 145px; 
+	height: 130px;
+	}
+
+.nbaUpfrontAdTitle
+	{
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	color:#3399cc;
+	margin-top:9px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	}
+	
+.nbaUpfrontAdTitle a
+	{
+	text-decoration:none;
+	color:#0066cc;
+	}
+	
+.nbaUpfrontAdBlurb
+	{
+	font-family:arial;
+	font-size:11px;
+	color:#333333;
+	margin:0px;
+	padding:0px;
+	}
+	
+.nbaUpfrontAdBlurb a
+	{
+	text-decoration:none;
+	color:#333333;
+	}
+	
+.nbaUpfrontAdBottomLink
+	{
+	font-size:10px;
+	font-family:arial;
+	font-weight:bold;
+	margin:0px;
+	padding:0px;
+	}
+	
+span.nbaVideoGridContentHeader {
+	margin-left: 0px !important;
+	font-size:12px !important;
+	color: #0066CC !important;
+	font-weight:bold;
+	cursor:pointer;
+}
+span.nbaVideoGridLink {
+	font-size:9px;
+	font-weight:bold;
+	text-decoration: underline;
+	color: #0066CC !important;
+	cursor:pointer;
+}

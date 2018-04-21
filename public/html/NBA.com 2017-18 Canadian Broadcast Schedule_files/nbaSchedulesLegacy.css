@@ -1,0 +1,526 @@
+#scheduleContainer {
+	margin-top: 0px;
+	width: 100%;
+	display: block;
+	float: auto;
+	height: 100%;
+}
+
+#scheduleMisc {
+	border-left: 1px solid #ffffff;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #cccccc;
+	background-color: #E5E5E5;
+	text-align: center;
+	width: 182px;
+	float: right;
+	margin: 0px;
+	vertical-align: top;
+	height:100%;
+}
+
+
+.scheduleMiscInner {
+	position: relative;
+	margin: 1px 0px 1px 2px;
+	border: 1px solid #ffffff;;
+	height: 100%;
+}
+
+.adCell{
+	padding:10px;
+}
+
+#scheduleMain {
+	float: left;
+	width: 740px;
+	margin: 10px 5px 0px 0px;
+	vertical-align: top;
+}
+
+table.genSchedTable * {
+	font-size: 11px;
+	padding: 5px 0px 5px 0px;
+	line-height:19px;
+}
+
+table.genSchedTable, table.schedBody, div.mlinks {
+	width: 100%;
+}
+
+table.genSchedTable {
+	border: 1px solid #BBBBBB;
+	margin: 10px 0 20px 0;
+}
+
+table.genSchedTable tr td {
+	padding-left: 10px;
+}
+
+td.mlinks, tr.header td {
+	background: url(/images/standings/conf_bg.gif) repeat-x;
+	font-family: trebuchet ms;
+	text-transform: uppercase;
+	font-size: 13px;
+	height: 20px;
+	padding-top: 2px;
+}
+
+div#lk {
+	padding-bottom: 3px;
+}
+
+div#lk div {
+	display: inline;
+	padding-right: 10px;
+}
+
+div#lk div a, tr.header td {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	font-family: trebuchet ms;
+	text-transform: uppercase;
+}
+
+div#lk div a:hover {
+	color: red;
+}
+
+
+tr.header td {
+	padding-bottom: 5px;
+}
+
+tr.title {
+	background: url(/images/standings/col_bg.gif) repeat-x;
+	height: 20px;
+}
+
+tr.title td, tr.subTitle td {
+	color: #000000;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+table.genSchedTable tr.main td {
+	padding: 0px;
+}
+
+
+tr.odd {
+	background-color: #F3F3F3;
+}
+
+td.dt, td.time, td.boxscore {
+	font-weight: bold;
+	width: 85px;
+}
+
+td.game {
+	width: 290px;
+}
+
+td.locTV, td.hiPts {
+	width: 105px;
+}
+
+td.tx {
+	text-align: center;
+}
+
+
+	div.gamesContainer {
+		position: relative;
+		display: table;
+		border: 1px solid #cccccc;
+		width: 100%;
+		padding-bottom: 2px;
+	}
+	
+	* html div.gamesContainer {
+		display: block;
+		height: 100%;
+		padding-bottom: 2px;
+	}
+	
+	div.noGames {
+		width: 100%;
+		text-align: center;
+	}
+		
+	div.gamesContainer div.header {
+		background: url(/images/standings/conf_bg.gif) repeat-x;
+		height: 20px;
+		color: #ffffff;
+		font-size: 13px;
+		font-weight: bold;
+		font-family: trebuchet ms, arial;
+		text-transform: uppercase;
+		margin: 0px -1px 0px -1px;
+		padding-left: 10px;
+	}
+	
+	div.gRow {
+		position: relative;
+		display: block;
+		padding-left: 4px;
+		width: 100%;
+	}
+	
+	ul { list-style-type: none; margin: 0px; padding: 0px;}
+	
+	div.gRow ul {
+		margin-left: 4px;
+		display: inline;
+	}
+	
+	* html div.gRow ul {
+		margin-left: 0px;
+	}
+	
+	div.gRow ul li {
+		position: relative;
+		float: left; 
+		width: 140px;
+		display: inline;
+		border: 1px solid #cccccc;
+		margin: 2px;
+		font-style: arial;
+		font-size: 12px;
+	}
+	
+	* html div.gRow ul li {
+		width: 140px;
+		margin: 3px;
+	}
+	
+	div.txt, div.links, div.score {
+		position: relative;
+		display: block;
+		padding-left: 7px;
+	}
+	
+	div.tm {
+		text-align: left;
+	}
+	
+	div.sc {
+		position: absolute;
+		font-weight: bold;
+		top: 0px;
+		left: 111px;
+		text-align: right;
+	}
+	
+	div.txt {
+		background-color: #eeeeee;
+		font-weight: bold;
+		font-size: 11px;
+		height: 15px;
+		font-family: tahoma;
+		color: #554D4D;
+	}
+	
+	div.links {
+		border-top: 1px dashed #cccccc;
+	}
+	
+	div.tm, div.sc, div.links {
+		height: 15px;
+		overflow: hidden;
+	}
+	
+	div.tvImg, div.tvTxt {
+		position: absolute;
+		top: 3px;
+		left: 65%;
+		width: 30px;
+		height: 13px;
+	}
+	
+	.ESPN {
+		background: url(/media/broadcastlogos/broadcast_ESPN.gif) no-repeat;
+	}
+	.ABC {
+		background: url(/media/broadcastlogos/broadcast_ABC.gif) no-repeat;
+	}
+	.TNT {
+		background: url(/media/broadcastlogos/broadcast_TNT.gif) no-repeat;
+	}
+	.ESPN2 {
+		background: url(/media/broadcastlogos/broadcast_ESPN2.gif) no-repeat;
+	}
+	
+	.win {
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #FC8525;
+		/*background: url(/media/nbav2/arrowTransparent.gif) no-repeat;*/
+		background-position: left center;
+		overflow: visible;
+		/*padding-left: 10px;*/
+	}
+	
+	.nogames {
+		font-family: trebuchet ms;
+		font-weight: bold;
+		font-size: 12px;
+		height: 100px;
+		text-align: center;
+		margin: auto;
+	}
+	
+	/* DROPDOWN */
+	
+	#dropdownContainer {
+		display: block;
+		width: 100%;
+	}
+	
+	.dropdown {
+		float: none;
+		margin-top: 5px;
+	}
+	
+	.dropdown li {
+		padding: 0px 0px 5px 5px;
+	}
+	
+	.dropdown li {
+		font-family: verdana;
+		font-size: 11px;
+	}
+	
+	.dropdown li.title {
+		font-weight: bold;
+	}
+
+	
+	.drop {
+		width: 150px;
+		font-style: verdana;
+		font-size: 10px;
+	}
+	
+	form {
+		padding: 0px; margin: 0px;
+	}
+	
+div.calendarWrapper{
+	position:relative;
+	margin:10 0 10 0;
+	height:55px;
+	width:800px;
+}
+
+div.calendarLeft{
+	background-image: url(/media/homepage/cal_bg_left.gif);
+	width:313px;
+	height:55px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+div.calendarMid{
+	background-image: url(/media/homepage/cal_bg_mid.gif);
+	width:313px;
+	height:55px;
+	position:absolute;
+	left:313px;
+	top:0px;
+}
+div.calendarRight{
+	background-image: url(/media/homepage/cal_bg_right.gif);
+	width:313px;
+	height:55px;
+	position:absolute;
+	left:626px;
+	top:0px;
+	display:none;
+}
+div.dateLeft,div.dateMid,div.dateRight{
+	position:absolute;
+	top:8px;
+	left:13px;
+	font-weight:bold;
+	font-size:12px;
+}
+div.dateLeft span,div.dateMid span,div.dateRight span{
+	font-size:18px;
+	font-weight:bold;
+}	
+.event{
+	position:absolute;
+	top:5px;
+	left:105px;
+	font-size:11px;
+}
+
+.box{
+	margin-bottom:5px;
+}
+
+
+.box:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .box {height: 1%;}
+/* End hide from IE-mac */
+
+#calendarStripAndFormContainer{
+	min-height:90px;
+	text-align:center;
+}
+#calendarStripAndForm{
+	width:625px;
+	margin: 0 auto;
+	height:100px;
+	position: relative;
+}
+#calendarStripAndForm ul {
+	margin:0;
+	padding:0;
+	float:left;
+	width:563px;
+	height:10px;
+}
+#calendarStripAndForm li {
+	float:left;
+	margin:0;
+	padding:0;
+	width:30%;
+	display:inline;
+}
+#calendarStripAndForm li.dropdown {
+	margin-top:20px;
+}
+
+.dropbroadcaster{
+		width: 150px;
+		font-style: verdana;
+		font-size: 10px;
+	}
+
+#monthPopup{
+	position:absolute;
+	top: 53px;
+	left:-60px;
+}
+#advancedSearch{
+	float:right;
+	width:200px;
+	/*margin-right:10px;*/
+	text-align: right;
+}
+
+table#simpleForm .drop, table#simpleForm .dropbroadcaster{
+/*	margin-top:20px;*/
+}
+
+
+
+table#scheduleTable{
+	border-collapse: collapse;
+	border:1px solid #cccccc;
+	width:625px;
+}
+
+#scheduleTable caption{
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:3px;
+	background:url(/images/schedules/conf_bg.gif) repeat-x;
+}
+
+#scheduleTable th{
+	background:url(/images/schedules/col_bg.gif) repeat-x;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px;
+	line-height:16pt;
+	border:1px solid #cccccc;
+}
+#scheduleTable td{
+	font-size:12px;
+	text-align:left;
+	padding:5px;
+	line-height:14pt;
+	border:1px solid #cccccc;
+}
+
+#scheduleTable td.tickets{
+	text-align:center;
+}
+
+
+div.calendarWrapper {
+height:55px;
+margin:10px 0pt;
+position:relative;
+width:625px;
+}
+
+#keyDatesHdr {
+	height:14px;
+	width:90px;
+	margin:0px;
+	margin-top:10px;
+	padding:0px;
+	text-indent:-100em;
+	background:url(/images/schedules/text_keydates.gif) no-repeat;
+}
+
+fieldset { 
+	border:1px solid #cccccc; 
+	background:transparent url(/images/schedules/col_bg.gif) repeat-x scroll top left;
+}
+#advSchedSearch p {
+	text-align:center;
+	font-style:italic;
+	font-weight:bold;
+	margin:2px;
+	padding:2px;
+}
+#advSchedSearch ul li {
+	display:inline;
+	padding:3px;
+	margin:3px;
+}
+#advSchedSearch div {
+	text-align:center;
+}
+.calendarRight{
+	display:none;
+}
+.standardTextBlack img{
+	margin:40px 40px 10px 40px !important;
+}
+.past_date{width: 77px;}
+.upcoming_date{width: 77px;}
+.past_away{width:83px;}
+.upcoming_away{width:89px;}
+.past_home{width:83px;}
+.upcoming_home{width:88px;}
+.past_boxscore{width:69;}
+.upcoming_time{width:88px;}
+.past_points{width:138px;}
+.upcoming_tv{width:77px;}
+.upcoming_sirius{width:105px;}
+.past_rebounds{width:144px;}
+.upcoming_loctv{width:153px;}
+.past_assists{width:140px;}
+.upcoming_tickets{width:56px;}
+
+table.genSchedTable tr td.ntv { line-height:22px;vertical-align:middle; }
+table.genSchedTable tr td.ntv img { line-height:22px;vertical-align:middle; padding-right:5px !important; }
